@@ -1,0 +1,21 @@
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    <div class="container">
+      <hr />
+      <img style="margin-left:auto;margin-right:auto;" src="/img/icons/marcanuy-bw2-round.png"/>
+      <p class="pull-right">
+	<ul class="nav menu nav-pills pull-right">
+	  {% for profile in site.data.socialnetworks %}
+	  <li>
+	    <a href="{{ profile[1].url }}" title="Follow Me!" >
+	      <img src="{{ profile[1].icon }}" alt="{{ profile[1].icon_alt }}" class="img-responsive" />
+	    </a>
+	  </li>
+	  {% endfor %}
+	</ul>
+      </p>
+      <p style="color:white">&copy; marcanuy 2014</p>
+    </div>
+  </div>
+</footer>

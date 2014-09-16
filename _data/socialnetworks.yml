@@ -1,0 +1,29 @@
+twitter:
+  url: "http://twitter.com/marcanuy"
+  link_title: "Follow me!"
+  icon: "/img/icons/twitter-bird3-webtreatsetc-small.png"
+  icon_big: "/img/icons/twitter-206.png"
+  icon_alt: "Twitter Profile"
+  
+github:
+  url: "https://github.com/marcanuy"
+  link_title: "Github Profile"
+  icon: "/img/icons/octocat2-small.png"
+  icon_big: "/img/icons/github-206.png"
+  icon_alt: "Github Plus Profile"
+
+mail:
+  url: "mailto:me@marcanuy.com"
+  link_title: "Mail me"
+  icon: "/img/icons/mail-webtreatsetc-small.png"
+  icon_big: "/img/icons/email-206.png"
+  icon_alt: "Mail Address"
+
+linkedin:
+  url: "http://www.linkedin.com/pub/marcelo-canina/31/624/886"
+  link_title: "Contact Me"
+  icon: "/img/icons/linkedin-logo-webtreatsetc-small.png"
+  icon_big: "/img/icons/linkedin-206.png"
+  icon_alt: "LinkedIn Profile"
+
+  

@@ -1,0 +1,13 @@
+<nav class="container">
+  <div class="navigation ">
+    <ul class="nav nav-pills">
+      {% for menu in site.nav[page.lang] %}
+      <li>
+	<a href="{{menu[1].url}}" {% if page.url == menu[url] %} class="active" {% endif %}>
+	  {{menu[1].title}}
+	</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

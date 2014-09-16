@@ -1,0 +1,85 @@
+permalink: /:categories/:title/
+url: 'http://marcanuy.com'
+
+defaults:
+  #languages
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+  #default layout for all pages and posts
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+#language of /index.html
+default_lang: "en"
+      
+logo:
+  en:
+    title: "marcanuy"
+    subtitle: "Marcelo Canina - Personal website"
+    url:   "/"
+  es:
+    title: "marcanuy"
+    subtitle: "Marcelo Canina - Sitio web personal"
+    url:   "/es/"
+  
+nav:
+  en:
+    home:
+      title: "Home"
+      url:   "/"
+    projects:
+      title: "Projects"
+      slug: "projects"
+      url:   "/en/projects"
+  es:
+    home:
+      title: "Inicio"
+      url:   "/es/"
+    projects:
+      title: "Proyectos"
+      slug: "proyectos"
+      url:   "/es/proyectos"
+
+trans:
+  en:
+    lang:
+      code: "EN"
+      name: "english"
+    projects:
+        features: "Features"
+        techs: "Technologies"
+        urls: "URLs"
+    created: "Published on the"
+    author: "by"
+    description: "Personal website, made with Jekyll."
+  es:
+    lang:
+      code: "ES"
+      name: "español"
+    projects:
+      features: "Características"
+      techs: "Tecnologías"
+      urls: "URLs"
+    created: "Publicado el"
+    author: "por"
+    description: "Sitio personal, hecho con Jekyll."
+
+

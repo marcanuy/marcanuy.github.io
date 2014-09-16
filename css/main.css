@@ -1,0 +1,93 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body
+{
+  background-color:#000;
+  font-size: 18px;
+}
+
+body > .container {
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 20px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+.header-inner
+{
+  text-align:center;
+  padding-top:15px;
+}
+.site-title
+{
+  font-size: 950%;
+  line-height: 48px;
+  font-weight: bold;
+  margin-left:auto;
+  margin-right:auto;
+  font-/stretch: extra-expanded;
+  letter-spacing: 29px;
+  font-weight: bold;
+  text-align:center;
+}
+.site-description
+{
+  padding-top:15px;
+}
+.site-title, .site-description
+{
+  color: #000;
+}
+
+.brand:hover
+{
+  text-decoration: none;
+  color: #046;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .site-title {
+    font-size:380%;
+    letter-spacing: 15px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .site-title {
+    font-size:280%;
+    letter-spacing: normal;
+    }
+}
+
+.navigation {
+    padding: 5px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 10px;
+}
+
+nav a
+{
+  color: #050505;
+}
+
+div#home .jumbotron
+{
+  background-color: inherit;
+}
+
+#home .glyphicon
+{
+  padding-right: 10px;
+}
+
+.center-pills
+{
+  display: inline-block;
+}

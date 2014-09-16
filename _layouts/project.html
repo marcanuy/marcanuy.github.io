@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }} <small>{{ page.desc }}</small></h1>
+  {{ content }}
+  <h2>{{ site.trans.[page.lang].projects.features }}</h2>
+  <ul>
+    {% for feature in page.features %}
+    <li>{{ feature }}</li>
+    {% endfor %}
+  </ul>
+  <h2>{{ site.trans.[page.lang].projects.techs }}</h2>
+  <ul>
+    {% for tech in page.techs %}
+    <li>{{ tech }}</li>
+    {% endfor %}
+  </ul>
+  <h2>{{ site.trans.[page.lang].projects.urls }}</h2>
+  <div class="list-group">
+    {% for url in page.urls %}
+      <a href="{{ url }}" class="list-group-item">
+        {{ url | remove:'http://' }}
+      </a>
+    {% endfor %}
+  </div>
+</article>
