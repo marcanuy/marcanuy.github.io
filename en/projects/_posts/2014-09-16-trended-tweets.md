@@ -19,4 +19,4 @@ urls:
 tags: Laravel PHP Bootstrap
 ---
 
-Daily selection of the best tweets in countries based in their trending topics.
+Daily selection of the best tweets for each country supported by Twitter based in their trending topics.
