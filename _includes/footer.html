@@ -8,7 +8,7 @@
 	<ul class="nav menu nav-pills pull-right">
 	  {% for profile in site.data.socialnetworks %}
 	  <li>
-	    <a href="{{ profile[1].url }}" title="Follow Me!" >
+	    <a href="{{ profile[1].url }}" title="{{ profile[1].link_title }}" >
 	      <img src="{{ profile[1].icon }}" alt="{{ profile[1].icon_alt }}" class="img-responsive" />
 	    </a>
 	  </li>
