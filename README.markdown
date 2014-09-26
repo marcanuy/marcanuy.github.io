@@ -1,7 +1,7 @@
 # About
 
 This is the data for Marcelo Canina's [website](http://marcanuy.com "http://marcanuy.com").
-I use [Jekyll](https://github.com/jekyll/jekyll) to transform the content of this repo into the static site hosted at [marcanuy.com](http://marcanuy.com "http://marcanuy.com").
+I use [Jekyll](https://github.com/jekyll/jekyll) to transform the content of this repo into the static site hosted at [Github Pages](https://help.github.com/categories/20/articles).
 
 # Features
 
