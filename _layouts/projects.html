@@ -5,7 +5,7 @@ layout: default
 <div class="list-group">
   {% for post in site.posts %}
   {% if post.categories contains site.nav[page.lang].projects.slug) and post.lang == page.lang %}
-  <a href="{{ post.url }}" class="list-group-item">
+  <a href="{{ post.url | remove: 'index.html' }}" class="list-group-item">
     <h4 class="list-group-item-heading">{{ post.title }}</h4>
     <p class="list-group-item-text">{{ post.excerpt }}</p>
   </a>
