@@ -19,4 +19,6 @@ urls:
 tags: Laravel PHP Bootstrap
 ---
 
+<span class="label label-danger">Proyecto temporalmente suspendido</span>
+
 Selección diaria de los mejores tuits de cada país basada en sus tendencias de Twitter
