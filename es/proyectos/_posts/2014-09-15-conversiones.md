@@ -5,6 +5,7 @@ layout: project
 features:
   - Más de 300.000 conversiones
   - 30 sistemas de unidades
+  - Herramienta de conversor de unidades interactiva.
 techs:
   - PHP; Joomla framework
   - SEO, tags semánticos
