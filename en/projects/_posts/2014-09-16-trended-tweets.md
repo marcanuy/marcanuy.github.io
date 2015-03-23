@@ -19,6 +19,4 @@ urls:
 tags: Laravel PHP Bootstrap
 ---
 
-<span class="label label-danger">Project on hold</span>
-
-Daily selection of the best tweets for each country supported by Twitter based in their trending topics.
+<span class="label label-danger">Project on hold</span> Daily selection of the best tweets for each country supported by Twitter based in their trending topics.

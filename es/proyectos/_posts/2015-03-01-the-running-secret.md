@@ -15,5 +15,5 @@ urls:
 tags: Laravel PHP Bootstrap
 ---
 
-Articulos sobre la mejor forma para correr con los estudios que la validan. Frases y análisis de la técnica de los mejores corredores.
+<span class="label label-default">En desarrollo</span> Articulos sobre la mejor forma para correr con los estudios que la validan. Frases y análisis de la técnica de los mejores corredores.
 

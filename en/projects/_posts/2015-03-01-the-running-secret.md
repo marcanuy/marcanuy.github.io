@@ -15,4 +15,4 @@ urls:
 tags: Laravel PHP Bootstrap
 ---
 
-Articles about the best running technique with sources. Quotes and studies of the best runners.
+<span class="label label-default">In development</span> Articles about the best running technique with sources. Quotes and studies of the best runners.
