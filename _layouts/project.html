@@ -4,6 +4,7 @@ layout: default
 
 <article>
   <h1>{{ page.title }} <small>{{ page.desc }}</small></h1>
+  <p class="text-muted">{{ page.date | date: "%F" }}</p>
   {{ content }}
   <h2>{{ site.trans.[page.lang].projects.features }}</h2>
   <ul>
