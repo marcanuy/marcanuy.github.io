@@ -35,9 +35,14 @@
       <!-- Header -->
       <div class="header">
 	<div class="header-inner clearfix">
+
+	  {% if page.lang != 'es' %}
 	  <a class="brand" href="/">
-	    <span class="site-title" title="Marcanuy">{{ site.logo[page.lang].title }}</span>
-	    <div class="site-description">{{ site.logo[page.lang].subtitle }}</div>
+	  {% else %}
+	  <a class="brand" href="/{{ page.lang }}">
+          {% endif %}
+	  <span class="site-title" title="Marcanuy">{{ site.logo[page.lang].title }}</span>
+	  <div class="site-description">{{ site.logo[page.lang].subtitle }}</div>
 	  </a>
 
 	  {% include langmenu.html %}
