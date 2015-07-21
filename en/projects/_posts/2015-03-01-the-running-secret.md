@@ -9,10 +9,10 @@ features:
 techs:
   - Ruby; Jekyll
   - Twitter Bootstrap, responsive design
-  - SEO, tags semánticas
+  - SEO, HTML5, schema.org tags 
 urls:
   - http://TheRunningSecret.com
-tags: Laravel PHP Bootstrap
+tags: Jekyll Ruby Bootstrap
 ---
 
 <span class="label label-default">In development</span> Articles about the best running technique with sources. Quotes and studies of the best runners.
