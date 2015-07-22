@@ -63,17 +63,19 @@ trans:
     lang:
       code: "EN"
       name: "english"
+    subjects: "Subjects"
     projects:
         features: "Features"
         techs: "Technologies"
         urls: "URLs"
-    created: "Published on the"
+    created: "Published on"
     author: "by"
     description: "Personal website, made with Jekyll."
   es:
     lang:
       code: "ES"
       name: "español"
+    subjects: "Temas"
     projects:
       features: "Características"
       techs: "Tecnologías"
