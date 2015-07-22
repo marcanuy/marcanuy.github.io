@@ -1,6 +1,7 @@
 ---
 title: El secreto de los corredores
-desc: "Artículos y estudios sobre la mejor forma para correr"
+description: "Proyecto de artículos y estudios sobre la mejor forma para correr"
+description: "Artículos y estudios sobre la mejor forma para correr"
 layout: project
 features:
   - Interfaz simple.

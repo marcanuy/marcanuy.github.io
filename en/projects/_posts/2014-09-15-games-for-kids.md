@@ -1,11 +1,12 @@
 ---
 title: Online free games for kids
-desc: Easy games.
+subtitle: 
+description: Easy games for kids.
 layout: project
 features:
   - More than 800 free and easy games
   - Voting system
-  - Popular game categories: painting, dress up, adventure, cooking, shooting, racing, sports, makeup, barbie.
+  - "Popular game categories: painting, dress up, adventure, cooking, shooting, racing, sports, makeup, barbie."
 techs:
   - PHP; Joomla
   - Flash games

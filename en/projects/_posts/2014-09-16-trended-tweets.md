@@ -1,6 +1,7 @@
 ---
 title: Twitter daily best tweets
-desc: Tweets curator
+subtitle: Tweets curator
+description: Selecting the best tweets from popular topics
 layout: project
 features:
   - Original algorithm for selecting hourly/daily/weekly/monthly best tweets.

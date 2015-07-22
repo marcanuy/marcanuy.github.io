@@ -1,6 +1,7 @@
 ---
 title: Personal Website Project
-desc: ""
+subtitle: ""
+description: "Marcelo Canina personal website project"
 layout: project
 features:
   - Simple interface

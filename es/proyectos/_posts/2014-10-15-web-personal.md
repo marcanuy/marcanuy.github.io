@@ -1,6 +1,7 @@
 ---
-title: Proyecto de web personal
-desc: ""
+title: Web personal
+subtitle: ""
+description: "Proyecto de web personal"
 layout: project
 features:
   - Interfaz simple

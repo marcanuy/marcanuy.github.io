@@ -1,6 +1,7 @@
 ---
 title: Rankings diarios de tuits y tendencias de Twitter
-desc: Seleccionador de tuits
+description: Proyecto de web con los mejores tuits por hashtag
+subtitle: Selección de los mejores tuits
 layout: project
 features:
   - Algoritmo original para seleccionar los mejores tuits por hora/día/semana/mes.

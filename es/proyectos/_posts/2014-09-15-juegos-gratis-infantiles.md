@@ -1,12 +1,13 @@
 ---
 title: Juegos gratis infantiles para niños
-desc: Juegos fáciles en línea.
+subtitle: Juegos fáciles en línea.
+description: Juegos gratuitos en línea para niños.
 layout: project
 features:
   - Más de 800 juegos para niños
   - Categorías de juegos populares
   - Sistema de ranking de juegos
-  - Categorías: pintura, vestir, aventura, cocina, disparo, carrera, deporte, maquillaje, barbies.
+  - "Categorías: pintura, vestir, aventura, cocina, disparo, carrera, deporte, maquillaje, barbies."
 techs:
   - PHP; Joomla
   - Juegos Flash

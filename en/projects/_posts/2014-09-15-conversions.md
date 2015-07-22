@@ -1,6 +1,7 @@
 ---
 title: Conversions
-desc: Unit conversions
+subtitle: Unit conversions
+description: Unit conversions
 layout: project
 features:
   - Almost 300.000 conversions

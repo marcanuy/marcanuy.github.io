@@ -1,6 +1,7 @@
 ---
 title: The runners secret
-desc: "Articles and studies about the best running technique"
+subtitle: "Articles about the best running technique"
+description: "Articles and studies about the best running technique"
 layout: project
 features:
   - Simple interface

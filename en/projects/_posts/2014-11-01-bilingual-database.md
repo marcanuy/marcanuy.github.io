@@ -1,14 +1,15 @@
 ---
 title: Bilingual databases
-desc: Phrases equivalents in english and spanish
+subtitle: Equivalent phrases between English and Spanish
+description: Equivalent phrases between English and Spanish
 layout: project
 features:
   - 100.000 words and phrases translated in each language.
-  - English and spanish translations.
+  - English and Spanish translations.
   - Example sentences for each word or words in context.
 techs:
   - PHP; Laravel web framework
-  - Using an english - spanish dictionary with the acknoledgment of its author.
+  - Using an English - Spanish dictionary with the acknoledgment of its author.
   - Twitter Bootstrap, responsive design
   - SEO, semantic tags
 urls:

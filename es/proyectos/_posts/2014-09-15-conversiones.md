@@ -1,6 +1,7 @@
 ---
 title: Conversiones
-desc: Conversiones entre unidades
+subtitle: Conversiones entre unidades
+description: Proyecto de conversiones entre unidades
 layout: project
 features:
   - Más de 300.000 conversiones
