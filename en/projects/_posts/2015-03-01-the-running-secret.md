@@ -3,6 +3,9 @@ title: The runners secret
 subtitle: "Articles about the best running technique"
 description: "Articles and studies about the best running technique"
 layout: project
+subjects:
+  - Running
+  - Sport
 features:
   - Simple interface
   - Analisis of the best runners technique
