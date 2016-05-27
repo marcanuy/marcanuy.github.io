@@ -35,12 +35,14 @@ layout: default
       {% endfor %}
     </div>
 
+    {% if page.subjects %}
     <h2>{{ site.trans.[page.lang].subjects }}</h2>
     <ul>
       {% for subject in page.subjects %}
       <li itemprop="about">{{ subject }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
 
     <h2>{{ site.trans.[page.lang].projects.features }}</h2>
     <ul>
