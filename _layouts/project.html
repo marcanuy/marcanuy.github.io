@@ -27,6 +27,7 @@ layout: default
     <div class="list-group lead">
       {% for url in page.urls %}
       <a href="{{ url }}" class="list-group-item list-group-item-info">
+	<img src="/img/icons/external-link-16.png" />
 	<strong>
           {{ url | remove:'http://' | remove:'https://' }}
 	</strong>
