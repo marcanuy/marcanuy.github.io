@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/Article">
+
+    <meta itemprop="description" content="{{ page.description }}" />
+    <meta itemprop="url" content="{{ site.url }}{{ page.url }}" />
+    <meta itemprop="name" content="{{ page.title}}" />
+    <meta itemprop="inLanguage" content="{{ page.lang }}" />
+    <meta itemprop="author" content="Marcelo Canina" />
+
+    <div class="page-header">
+      <h1 itemprop="headline">
+	{{ page.title }}
+	<small>{{ page.subtitle }}</small>
+      </h1>
+    </div>
+    <p class="text-muted">
+      {{ site.trans.[page.lang].created }}: 
+      <span itemprop="datePublished">{{ page.date | date: "%F" }}</span>
+    </p>
+
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
+  
+</article>
