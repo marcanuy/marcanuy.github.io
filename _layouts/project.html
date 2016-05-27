@@ -23,6 +23,7 @@ layout: default
   <div itemprop="articleBody">
     {{ content }}
 
+    {% if page.urls %}
     <h2>{{ site.trans.[page.lang].projects.urls }}</h2>
     <div class="list-group lead">
       {% for url in page.urls %}
@@ -34,7 +35,8 @@ layout: default
       </a>
       {% endfor %}
     </div>
-
+    {% endif %}
+    
     {% if page.subjects %}
     <h2>{{ site.trans.[page.lang].subjects }}</h2>
     <ul>
@@ -44,18 +46,23 @@ layout: default
     </ul>
     {% endif %}
 
+    {% if page.features %}
     <h2>{{ site.trans.[page.lang].projects.features }}</h2>
     <ul>
       {% for feature in page.features %}
       <li>{{ feature }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
 
+    {% if page.techs %}
     <h2>{{ site.trans.[page.lang].projects.techs }}</h2>
     <ul>
       {% for tech in page.techs %}
       <li>{{ tech }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
+    
   </div>
 </article>
