@@ -13,7 +13,8 @@ defaults:
       path: "es"
     values:
       lang: "es"
-  #default layout for all pages and posts
+  # default layouts when not specified in each doc
+  # types available: pages, posts, drafts
   -
     scope:
       path: ""

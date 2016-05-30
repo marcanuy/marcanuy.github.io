@@ -2,7 +2,15 @@
   <div class="navigation ">
     <ul class="nav nav-pills">
       {% for menu in site.nav[page.lang] %}
+      
+      {% comment %} Dirty hack to move to the right notes menu in english so it is less important {% endcomment %}
+      
+      {% if page.lang == 'en' and menu[0] == "notes" %}
+      <li class="pull-right">
+	{% else %}
       <li>
+	{% endif %}
+	
 	<a href="{{menu[1].url}}" {% if page.url == menu[url] %} class="active" {% endif %}>
 	  {{menu[1].title}}
 	</a>

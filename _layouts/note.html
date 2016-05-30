@@ -16,10 +16,6 @@ layout: default
 	<small>{{ page.subtitle }}</small>
       </h1>
     </div>
-    <p class="text-muted">
-      {{ site.trans.[page.lang].created }}: 
-      <span itemprop="datePublished">{{ page.date | date: "%F" }}</span>
-    </p>
 
     <div itemprop="articleBody">
       {{ content }}
