@@ -80,10 +80,10 @@
     Traverse through menus nav language, if we are in a homepage
     do not show the footer to avoid duplicate content with home links
     {% endcomment %}
-    {% for lang_url in site.nav[page.lang][url] %}
-    {% if page.url != lang_url %}
+
+    {% if page.url != site.nav[page.lang]['home']['url'] %}
     {% include footer.html %}
     {% endif %}
-    {% endfor %}
+
   </body>
 </html>
