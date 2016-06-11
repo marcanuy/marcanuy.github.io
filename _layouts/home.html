@@ -22,27 +22,28 @@ is_home: true
 	  <p><span class="glyphicon glyphicon-thumbs-up"></span>{{ page.myself.hobbies }}</p>
 	</div>
 	<div class="col-md-6">
-          <img class="pull-right img-circle img-responsive" src="/img/icons/marcanuy-main-rounded.png" itemprop="image" />
+          <img class="pull-right img-circle img-responsive" src="/img/marcanuy-main-rounded.png" itemprop="image" />
 	</div>
       </div>
     </div> <!-- end row -->
   </div>
-  </div>
 
   <!-- Social networks big icons -->
-  <div class="container center-block">
-    <div class="row center-block" >
-      <div class="center-block" >
-	<ul class="nav nav-pills center-block" >
+  <div class="container" id="social-home-icons">
+    <div class="row" >
+	<ul class="nav nav-pills center-block text-center" >
 	  {% for profile in site.data.socialnetworks %}
-	  <li>
-	    <a href="{{ profile[1].url }}" title="{{ profile[1].title }}" >
-	      <img src="{{ profile[1].icon_big }}" alt="{{ profile[1].icon_alt }}" />
+	  <div class="col-md-2">
+	  <li class="text-center">
+	    <a href="{{ profile[1].url }}" title="{{ profile[1].title }}">
+	      <i class="fa {{ profile[1].icon_fa_class }} fa-8x fa-bo/rder" aria-hidden="true"></i><br />
+	      <small>{{ profile[1].icon_alt }}</small>
 	    </a>
 	  </li>
+	  </div>
 	  {% endfor %}
 	</ul>
-      </div>
     </div>
   </div>
+  
 </article>

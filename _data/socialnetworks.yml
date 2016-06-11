@@ -1,34 +1,35 @@
+stack-exchange:
+  url: "http://stackexchange.com/users/1193189/marcanuy?tab=accounts"
+  link_title: "Stack-exchange profile"
+  icon_fa_class: "fa-stack-exchange"
+  icon_alt: "StackExchange"
+
 twitter:
   url: "http://twitter.com/marcanuy"
   link_title: "Follow me!"
-  icon: "/img/icons/twitter-35.png"
-  icon_big: "/img/icons/twitter-180.png"
+  icon_fa_class: "fa-twitter"
   icon_alt: "Twitter"
   
 github:
   url: "https://github.com/marcanuy"
   link_title: "Github Profile"
-  icon: "/img/icons/github-35.png"
-  icon_big: "/img/icons/github-180.png"
+  icon_fa_class: "fa-github"
   icon_alt: "Github"
 
 mail:
   url: "mailto:me@marcanuy.com"
   link_title: "Mail me"
-  icon: "/img/icons/email-35.png"
-  icon_big: "/img/icons/email-180.png"
+  icon_fa_class: "fa-envelope"
   icon_alt: "Mail"
 
 linkedin:
   url: "http://www.linkedin.com/pub/marcelo-canina/31/624/886"
   link_title: "Contact Me"
-  icon: "/img/icons/linkedin-35.png"
-  icon_big: "/img/icons/linkedin-180.png"
+  icon_fa_class: "fa-linkedin-square"
   icon_alt: "LinkedIn"
 
 googleplus:
   url: "https://plus.google.com/118415138433063920612"
   link_title: "Google Plus"
-  icon: "/img/icons/googleplus-35.png"
-  icon_big: "/img/icons/googleplus-180.png"
+  icon_fa_class: "fa-google-plus-official"
   icon_alt: "Google Plus"

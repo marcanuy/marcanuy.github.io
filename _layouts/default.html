@@ -22,9 +22,11 @@
     </style>
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/main.css">
-
-    <script async src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
+    <!--script async src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script-->
+    <script src="https://use.fontawesome.com/7e274822ef.js"></script>
     <link rel="author" href="https://plus.google.com/118415138433063920612"/>
+
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -56,8 +58,8 @@
 	{{ content }}
       </div>
 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+      <script src="/js/vendor/jquery-3.0.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.0.0.min.js"><\/script>')</script>
 
       <script src="/js/vendor/bootstrap.min.js"></script>
 
@@ -74,8 +76,14 @@
       </script>
     </div> <!-- end main container -->
 
-    {% if page.is_home != true %}
+    {% comment %}
+    Traverse through menus nav language, if we are in a homepage
+    do not show the footer to avoid duplicate content with home links
+    {% endcomment %}
+    {% for lang_url in site.nav[page.lang][url] %}
+    {% if page.url != lang_url %}
     {% include footer.html %}
     {% endif %}
+    {% endfor %}
   </body>
 </html>

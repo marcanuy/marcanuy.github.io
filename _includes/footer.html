@@ -3,18 +3,18 @@
   <div class="footer">
     <div class="container">
       <hr />
-      <img style="margin-left:auto;margin-right:auto;" src="/img/icons/marcanuy-bw2-round.png"/>
-      <p class="pull-right">
+      <img style="margin-left:auto;margin-right:auto;" src="/img/marcanuy-bw2-round.png"/>
+      <div class="pull-right">
 	<ul class="nav menu nav-pills pull-right">
 	  {% for profile in site.data.socialnetworks %}
 	  <li>
 	    <a href="{{ profile[1].url }}" title="{{ profile[1].link_title }}" >
-	      <img src="{{ profile[1].icon }}" alt="{{ profile[1].icon_alt }}" class="img-responsive" />
+	      <i class="fa {{ profile[1].icon_fa_class }} fa-2x" aria-hidden="true"></i>
 	    </a>
 	  </li>
 	  {% endfor %}
 	</ul>
-      </p>
+      </div>
       <p style="color:white">&copy; marcanuy {{ 'now' | date: "%Y" }}</p>
     </div>
   </div>

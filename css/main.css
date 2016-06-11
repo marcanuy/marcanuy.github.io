@@ -1,9 +1,3 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 body
 {
   background-color:#000;
@@ -91,3 +85,84 @@ div#home .jumbotron
 {
   display: inline-block;
 }
+
+
+#social-home-icons a{
+    color: #000;
+}
+
+.footer i{
+    color: #fff;
+}
+
+/* .nav-pills > li.active > a { */
+/*     background-color:red; */
+/* } */
+/* // This changes the color of the active */
+
+/* .nav-pills>li.active>a:hover { */
+/*     background-color:red; */
+/* } */
+/* .footer li:hover, .footer li:active, .footer li:focus, .footer i:hover, */
+/* .footer a:hover, .footer a:active, .footer a:focus{ */
+/*     color: #000 !important; */
+/*     background-color:#fff !important; */
+/* } */
+.navigation .nav>li>a:hover,
+.navigation .nav>li>a:focus,
+.language-selector a:hover,
+.language-selector a:focus{
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+}
+
+.language-selector a{
+    color: black;
+}
+
+.footer .nav>li>a:hover,
+.footer .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #111;
+}
+
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+
+/*****************************************************************************************/
+/* Bigger fontawesome sizes								 */
+/* http://keenthemes.com/forums/topic/why-font-awesome-icons-resizing-dont-work-anymore/ */
+/*****************************************************************************************/
+
+.fa-6x {
+    font-size: 6em !important;
+}
+.fa-7x {
+    font-size: 7em !important;
+}
+.fa-8x {
+    font-size: 8em !important;
+}
+.fa-9x {
+    font-size: 9em !important;
+}
+.fa-10x {
+    font-size: 10em !important;
+}
+.fa-11x {
+    font-size: 11em !important;
+}
+.fa-12x {
+    font-size: 12em !important;
+}
+.fa-13x {
+    font-size: 13em !important;
+}
+.fa-14x {
+  font-size: 14em !important;}

@@ -1,17 +1,19 @@
-<div class="btn-group btn-group-sm pull-right">
-  {% for lang in site.nav %}
-  <a type="button"
-     href="/{% if site.default_lang != lang[0] %}{{ lang[0] }}{% endif %}"
-     class="btn btn-link
-     {% if page.lang == lang[0] %}
-     disabled
-     {% endif %}
-     "
-     data-toggle="tooltip"
-     data-placement="top"
-     title="{{ site.trans[page.lang].lang.name }}"
-     >
-    {{ lang[0] | upcase }}
-  </a>
-  {% endfor %}
+<div class="language-selector">
+  <div class="btn-group btn-group-sm pull-right">
+    {% for lang in site.nav %}
+    <a type="button"
+       href="/{% if site.default_lang != lang[0] %}{{ lang[0] }}{% endif %}"
+       class="btn btn-link
+	      {% if page.lang == lang[0] %}
+	      disabled
+	      {% endif %}
+	      "
+       data-toggle="tooltip"
+       data-placement="top"
+       title="{{ site.trans[page.lang].lang.name }}"
+       >
+      {{ lang[0] | upcase }}
+    </a>
+    {% endfor %}
+  </div>
 </div>
