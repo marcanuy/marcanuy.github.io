@@ -16,10 +16,13 @@ is_home: true
       <div class="row">
         <div class="col-md-6" itemprop="description">
 	  <h1>{{ page.myself.header}}</h1>
-	  <p><span class="fa fa-globe"></span>{{ page.myself.location }}</p>
-	  <p><span class="fa fa-user"></span>{{ page.myself.person }}</p>
-	  <p><span class="fa fa-floppy-o"></span>{{ page.myself.tech }}</p>
-	  <p><span class="fa fa-thumbs-up"></span>{{ page.myself.hobbies }}</p>
+	  <div class="description">
+	    <p><span class="fa fa-globe"></span>{{ page.myself.location }}</p>
+	    <p><span class="fa fa-user"></span>{{ page.myself.person }}</p>
+	    <p><span class="fa fa-graduation-cap"></span>{{ page.myself.study }}</p>
+	    <p><span class="fa fa-floppy-o"></span>{{ page.myself.tech }}</p>
+	    <p><span class="fa fa-thumbs-up"></span>{{ page.myself.hobbies }}</p>
+	  </div>
 	</div>
 	<div class="col-md-6">
           <img class="center-block img-circle img-responsive" src="/img/marcanuy-main-rounded.png" itemprop="image" />

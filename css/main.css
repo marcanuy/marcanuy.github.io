@@ -39,6 +39,15 @@ body > .container {
   color: #000;
 }
 
+#home .description .fa{
+    margin-right: 5px;
+}
+
+#home .description a{
+    color: inherit;
+    text-decoration-style: dotted;
+}
+
 .brand:hover
 {
   text-decoration: none;
