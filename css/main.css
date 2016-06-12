@@ -18,19 +18,21 @@ body > .container {
 }
 .site-title
 {
-  font-size: 950%;
   line-height: 48px;
   font-weight: bold;
   margin-left:auto;
   margin-right:auto;
-  font-/stretch: extra-expanded;
-  letter-spacing: 29px;
   font-weight: bold;
   text-align:center;
+  font-size: 10.5vw;
+  letter-spacing: 1.5vw;
+  padding-bottom: 10px;
 }
+
 .site-description
 {
-  padding-top:15px;
+    margin-top: 15px;
+    padding-top:15px;
 }
 .site-title, .site-description
 {
@@ -43,21 +45,6 @@ body > .container {
   color: #046;
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-    .site-title {
-    font-size:380%;
-    letter-spacing: 15px;
-    }
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-    .site-title {
-    font-size:280%;
-    letter-spacing: normal;
-    }
-}
 
 .navigation {
     padding: 5px 0px;
@@ -95,19 +82,6 @@ div#home .jumbotron
     color: #fff;
 }
 
-/* .nav-pills > li.active > a { */
-/*     background-color:red; */
-/* } */
-/* // This changes the color of the active */
-
-/* .nav-pills>li.active>a:hover { */
-/*     background-color:red; */
-/* } */
-/* .footer li:hover, .footer li:active, .footer li:focus, .footer i:hover, */
-/* .footer a:hover, .footer a:active, .footer a:focus{ */
-/*     color: #000 !important; */
-/*     background-color:#fff !important; */
-/* } */
 .navigation .nav>li>a:hover,
 .navigation .nav>li>a:focus,
 .language-selector a:hover,
@@ -165,4 +139,53 @@ div#home .jumbotron
     font-size: 13em !important;
 }
 .fa-14x {
-  font-size: 14em !important;}
+    font-size: 14em !important;}
+
+
+/*****************/
+/* Media queries */
+/*****************/
+
+/* Large desktops and laptops */
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {
+    .site-title {
+	font-size:150px;
+	font-weight: 900;
+	letter-spacing: 2vw;
+    }
+    
+}
+
+/* Landscape tablets and medium desktops */
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .site-title {
+	font-size: 12.8vw;
+	letter-spacing: 1.5vw;
+    }
+}
+
+/* Portrait tablets and small desktops */
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {
+    .site-title {
+	font-size:28px;
+	font-size: 12.8vw;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {
+    .site-title {
+	font-size: 12.8vw;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .site-title {
+	font-size:50px;
+    }
+}

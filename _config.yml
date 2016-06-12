@@ -34,11 +34,13 @@ default_lang: "en"
 logo:
   en:
     title: "marcanuy"
-    subtitle: "Marcelo Canina - Personal website"
+    subtitle: "Marcelo Canina"
+    subtitle_second: "Personal website"
     url:   "/"
   es:
     title: "marcanuy"
-    subtitle: "Marcelo Canina - Sitio web personal"
+    subtitle: "Marcelo Canina"
+    subtitle_second: "Sitio web personal"
     url:   "/es/"
   
 nav:

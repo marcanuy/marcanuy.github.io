@@ -20,7 +20,7 @@
        padding-bottom: 20px;
      }
     </style>
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <!--link rel="stylesheet" href="/css/bootstrap-theme.min.css"-->
     <link rel="stylesheet" href="/css/main.css">
     
     <!--script async src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script-->
@@ -43,9 +43,13 @@
 	  {% else %}
 	  <a class="brand" href="/{{ page.lang }}">
           {% endif %}
-	  <span class="site-title" title="Marcanuy">{{ site.logo[page.lang].title }}</span>
-	  <div class="site-description">{{ site.logo[page.lang].subtitle }}</div>
+	  <div class="site-title" title="Marcanuy">{{ site.logo[page.lang].title }}</div>
 	  </a>
+
+	  <div class="site-description">
+	    {{ site.logo[page.lang].subtitle }}
+	    <small class="text-muted">{{ site.logo[page.lang].subtitle_second}}</small>
+	  </div>
 
 	  {% include langmenu.html %}
 	  
