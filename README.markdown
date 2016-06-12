@@ -12,7 +12,7 @@ I use [Jekyll](https://github.com/jekyll/jekyll) to transform the content of thi
 
 The **content** of the site (i.e., blog posts and page content) is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/us/): you may use it, but you must give attribution.
 
-Most of the **icons** are from [FontAwesome library](http://fontawesome.io/). Other icons used to be from the [iconsDB icon set](http://www.iconsdb.com) and are licensed as described at [http://www.iconsdb.com/termsofuse.html](http://www.iconsdb.com/termsofuse.html).
+**Icons** are from [FontAwesome library](http://fontawesome.io/).
 
 It has been built using [Initializr](http://www.initializr.com/) (HTML5 + Twitter Bootstrap).
 
