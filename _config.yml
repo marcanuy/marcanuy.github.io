@@ -89,4 +89,12 @@ trans:
     author: "por"
     description: "Sitio personal, hecho con Jekyll."
 
-
+markdown: kramdown
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
