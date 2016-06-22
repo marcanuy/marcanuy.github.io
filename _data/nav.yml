@@ -1,0 +1,20 @@
+en:
+  home:
+    title: "Home"
+    url:   "/"
+  projects:
+    title: "Projects"
+    slug: "projects"
+    url:   "/en/projects"
+  notes:
+    title: "Notes"
+    slug: "notes"
+    url:   "/en/notes"
+es:
+  home:
+    title: "Inicio"
+    url:   "/es/"
+  projects:
+    title: "Proyectos"
+    slug: "proyectos"
+    url:   "/es/proyectos"

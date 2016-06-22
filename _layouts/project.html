@@ -17,14 +17,14 @@ layout: default
     </h1>
   </div>
   <p class="text-muted">
-    {{ site.trans.[page.lang].created }}: 
+    {{ site.data.trans.[page.lang].created }}: 
     <span itemprop="datePublished">{{ page.date | date: "%F" }}</span>
   </p>
   <div itemprop="articleBody">
     {{ content }}
 
     {% if page.urls %}
-    <h2>{{ site.trans.[page.lang].projects.urls }}</h2>
+    <h2>{{ site.data.trans.[page.lang].projects.urls }}</h2>
     <div class="list-group lead">
       {% for url in page.urls %}
       <a href="{{ url }}" class="list-group-item list-group-item-info">
@@ -38,7 +38,7 @@ layout: default
     {% endif %}
     
     {% if page.subjects %}
-    <h2>{{ site.trans.[page.lang].subjects }}</h2>
+    <h2>{{ site.data.trans.[page.lang].subjects }}</h2>
     <ul>
       {% for subject in page.subjects %}
       <li itemprop="about">{{ subject }}</li>
@@ -47,7 +47,7 @@ layout: default
     {% endif %}
 
     {% if page.features %}
-    <h2>{{ site.trans.[page.lang].projects.features }}</h2>
+    <h2>{{ site.data.trans.[page.lang].projects.features }}</h2>
     <ul>
       {% for feature in page.features %}
       <li>{{ feature }}</li>
@@ -56,7 +56,7 @@ layout: default
     {% endif %}
 
     {% if page.techs %}
-    <h2>{{ site.trans.[page.lang].projects.techs }}</h2>
+    <h2>{{ site.data.trans.[page.lang].projects.techs }}</h2>
     <ul>
       {% for tech in page.techs %}
       <li>{{ tech }}</li>

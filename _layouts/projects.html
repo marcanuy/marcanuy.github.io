@@ -6,7 +6,7 @@ layout: default
 </div>
 <div class="list-group">
   {% for post in site.posts %}
-  {% if post.categories contains site.nav[page.lang].projects.slug) and post.lang == page.lang %}
+  {% if post.categories contains site.data.nav[page.lang].projects.slug) and post.lang == page.lang %}
   <div itemscope itemtype="http://schema.org/Article">
     <a href="{{ post.url | remove: 'index.html' }}" class="list-group-item" itemprop="url">
       <h4 class="list-group-item-heading">

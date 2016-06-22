@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    {% if page.trans %}
-    <link rel="alternate" hreflang="{% if page.lang != 'es' %}es{% else %}en{% endif %}" href="{{ page.trans }}" />
+    {% if page.data.trans %}
+    <link rel="alternate" hreflang="{% if page.lang != 'es' %}es{% else %}en{% endif %}" href="{{ page.data.trans }}" />
     {% endif %}
     <style>
      body {
@@ -43,12 +43,12 @@
 	  {% else %}
 	  <a class="brand" href="/{{ page.lang }}">
           {% endif %}
-	  <div class="site-title" title="Marcanuy">{{ site.logo[page.lang].title }}</div>
+	  <div class="site-title" title="Marcanuy">{{ site.data.logo[page.lang].title }}</div>
 	  </a>
 
 	  <div class="site-description">
-	    {{ site.logo[page.lang].subtitle }}
-	    <small class="text-muted">{{ site.logo[page.lang].subtitle_second}}</small>
+	    {{ site.data.logo[page.lang].subtitle }}
+	    <small class="text-muted">{{ site.data.logo[page.lang].subtitle_second}}</small>
 	  </div>
 
 	  {% include langmenu.html %}
@@ -85,7 +85,7 @@
     do not show the footer to avoid duplicate content with home links
     {% endcomment %}
 
-    {% if page.url != site.nav[page.lang]['home']['url'] %}
+    {% if page.url != site.data.nav[page.lang]['home']['url'] %}
     {% include footer.html %}
     {% endif %}
 
