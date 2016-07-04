@@ -6,10 +6,10 @@ en:
     title: "Projects"
     slug: "projects"
     url:   "/en/projects"
-  notes:
-    title: "Notes"
-    slug: "notes"
-    url:   "/en/notes"
+  support:
+    title: "Support"
+    slug: "support"
+    url:   "/en/support"
 es:
   home:
     title: "Inicio"
@@ -18,3 +18,7 @@ es:
     title: "Proyectos"
     slug: "proyectos"
     url:   "/es/proyectos"
+  support:
+    title: "Apoyo"
+    slug: "apoyo"
+    url:   "/es/apoyo"

@@ -9,6 +9,7 @@ twitter:
   link_title: "Follow me!"
   icon_fa_class: "fa-twitter"
   icon_alt: "Twitter"
+  handler: "marcanuy"
   
 github:
   url: "https://github.com/marcanuy"

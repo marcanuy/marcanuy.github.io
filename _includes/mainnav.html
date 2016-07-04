@@ -3,9 +3,7 @@
     <ul class="nav nav-pills">
       {% for menu in site.data.nav[page.lang] %}
       
-      {% comment %} Dirty hack to move to the right notes menu in english so it is less important {% endcomment %}
-      
-      {% if page.lang == 'en' and menu[0] == "notes" %}
+      {% if menu[0] == "support" %}
       <li class="pull-right">
 	{% else %}
       <li>
