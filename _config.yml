@@ -27,7 +27,19 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
+  -
+    scope:
+      path: "en/projects"
+      type: "posts"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: "es/proyectos"
+      type: "posts"
+    values:
+      layout: "project"
+      
 #language of /index.html
 default_lang: "en"
 
