@@ -23,6 +23,7 @@ tags:
   - Bootstrap
   - Desarrollo-Software
   - Administración-Sistemas
+status: beta
 ---
 
 Colección de artículos y tutoriales sobre _desarrollo de software_ y _administración de sistemas_.

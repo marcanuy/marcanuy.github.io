@@ -18,6 +18,7 @@ urls:
   - http://us.trendedtweets.com
   - http://uk.trendedtweets.com
 tags: Laravel PHP Bootstrap
+status: stop
 ---
 
-<span class="label label-danger">Temporalmente suspendido</span> Selección diaria de los mejores tuits de cada país basada en sus tendencias de Twitter
+Selección diaria de los mejores tuits de cada país basada en sus tendencias de Twitter

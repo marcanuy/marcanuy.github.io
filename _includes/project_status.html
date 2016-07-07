@@ -1,0 +1,16 @@
+{% if include.status %}
+
+{% if include.status == "dev" %}
+{% assign label_type = "label-default" %}
+{% elsif include.status == "run" %}
+{% assign label_type = "label-success" %}
+{% elsif include.status == "beta" %}
+{% assign label_type = "label-warning" %}
+{% elsif include.status == "stop" %}
+{% assign label_type = "label-danger" %}
+{% endif %}
+<span class="label {{ label_type }}">  
+  {{ site.data.trans.[page.lang].projects.status.[include.status] }}
+</span>
+
+{% endif %}

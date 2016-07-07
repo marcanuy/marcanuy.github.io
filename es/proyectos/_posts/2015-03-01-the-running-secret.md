@@ -16,8 +16,9 @@ techs:
   - SEO, tags semánticas
 urls:
   - http://TheRunningSecret.com
-tags: Laravel PHP Bootstrap
+tags: Jekyll Bootstrap
+status: dev
 ---
 
-<span class="label label-default">En desarrollo</span> Articulos sobre la mejor forma para correr con los estudios que la validan. Frases y análisis de la técnica de los mejores corredores.
+Articulos sobre la mejor forma para correr con los estudios que la validan. Frases y análisis de la técnica de los mejores corredores.
 

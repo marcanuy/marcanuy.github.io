@@ -16,6 +16,9 @@ urls:
   - http://sayinspanish.com
   - http://comosediceeningles.org
 tags: Laravel PHP Bootstrap
+status: run
 ---
 
-English-Spanish dictionary with example sentences for each word, designed for search engines to get a conversion at <abbr title="Search Engines Results Pages">SERP</abbr> with a clean, human-friendly layout.
+English-Spanish dictionary with example sentences for each word.
+
+Designed for search engines to get a conversion at <abbr title="Search Engines Results Pages">SERP</abbr> with a clean, human-friendly layout.

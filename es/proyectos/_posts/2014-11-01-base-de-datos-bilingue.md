@@ -16,6 +16,9 @@ urls:
   - http://sayinspanish.com
   - http://comosediceeningles.org
 tags: Laravel PHP Bootstrap
+status: run
 ---
 
-Diccionario español-inglés con ejemplos del uso de las palabras en contexto. diseñado principalmente para que los motores de búsquedas obtengan el resultado de las traducciones en los resultados de búsqueda (<abbr title="Search Engines Results Pages">SERP</abbr>), con una interfaz limpia y amigable.
+Diccionario español-inglés con ejemplos del uso de las palabras en contexto. 
+
+Diseñado principalmente para que los motores de búsquedas obtengan el resultado de las traducciones en los resultados de búsqueda (<abbr title="Search Engines Results Pages">SERP</abbr>), con una interfaz limpia y amigable.

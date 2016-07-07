@@ -16,6 +16,9 @@ urls:
   - http://howmanyis.com
   - http://quantisono.com
 tags: Joomla PHP Bootstrap
+status: run
 ---
 
-Conjunto de webs cubriendo las conversiones entre sistemas de unidades más comunes, diseñado principalmente para que los motores de búsquedas obtengan el resultado de las conversiones en los resultados de búsqueda (<abbr title="Search Engines Results Pages">SERP</abbr>). También contienen una herramienta de conversión interactiva.
+Conjunto de webs cubriendo las conversiones entre sistemas de unidades más comunes.
+
+Diseñado principalmente para que los motores de búsquedas obtengan el resultado de las conversiones en los resultados de búsqueda (<abbr title="Search Engines Results Pages">SERP</abbr>). También contienen una herramienta de conversión interactiva.

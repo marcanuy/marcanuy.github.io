@@ -16,7 +16,9 @@ techs:
   - SEO, HTML5, schema.org tags 
 urls:
   - http://TheRunningSecret.com
-tags: Jekyll Ruby Bootstrap
+tags: Jekyll Bootstrap
+status: dev
 ---
 
-<span class="label label-default">In development</span> Articles about the best running technique with sources. Quotes and studies of the best runners.
+Articles about the best running technique with sources. Quotes and studies of the best runners.
+

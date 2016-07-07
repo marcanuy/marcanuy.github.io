@@ -18,8 +18,7 @@ urls:
   - http://jogosparacriancasgratis.com
   - http://kostenlosekinderspieleonline.com
 tags: Joomla PHP Bootstrap
+status: run
 ---
 
 Conjunto de web con juegos gratis para niños. Incluyen las categorías de juegos infantiles más populares.
-
-

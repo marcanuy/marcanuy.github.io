@@ -13,6 +13,7 @@ layout: default
 	{{ post.title }}
 	<small class="pull-right text-muted">{{ post.date | date: "%F" }}</small>
       </h4>
+      <small class="pull-right">{% include project_status.html status=post.status %}</small>
       <p class="list-group-item-text"><small>{{ post.excerpt }}</small></p>
     </a>
   </div>

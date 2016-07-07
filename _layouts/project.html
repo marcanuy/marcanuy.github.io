@@ -19,8 +19,14 @@ layout: default
   <p class="text-muted">
     {{ site.data.trans.[page.lang].created }}: 
     <span itemprop="datePublished">{{ page.date | date: "%F" }}</span>
+    {% if page.status %}
+    •
+    {% include project_status.html status=page.status %}
+    {% endif %}
+
   </p>
   <div itemprop="articleBody">
+
     {{ content }}
 
     {% if page.urls %}
