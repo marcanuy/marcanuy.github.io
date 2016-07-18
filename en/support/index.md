@@ -23,6 +23,10 @@ thank me, here are some ways you can do it.
 
 {% include twitter_button.html %}
 
+### Flattr ###
+
+{% include flattr_button.html %}
+
 ## Affiliate links ##
 
 There are some sites I recommend where I’ll earn a small commission if you
