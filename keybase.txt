@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/marcanuy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://marcanuy.com
+  * I am marcanuy (https://keybase.io/marcanuy) on keybase.
+  * I have a public key with fingerprint A669 4437 28F1 2537 F26F  C799 C3DF 3D9B B733 DB5A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101284534b4814662492e69aa9ec3db5d2b08f08d40536a551fcd501a271dd6405d0a",
+            "fingerprint": "a669443728f12537f26fc799c3df3d9bb733db5a",
+            "host": "keybase.io",
+            "key_id": "c3df3d9bb733db5a",
+            "kid": "0101284534b4814662492e69aa9ec3db5d2b08f08d40536a551fcd501a271dd6405d0a",
+            "uid": "8e4db96d34bacaa7125048aba8dbcf19",
+            "username": "marcanuy"
+        },
+        "service": {
+            "hostname": "marcanuy.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470448708,
+    "expire_in": 157680000,
+    "prev": "0c34928b90a99bd41597c4ec6174022c840010a4dc9138cf3278f564de889080",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJLaBNBHMYTNVIjrY/iK6LCelA01Nnd2d3ZINhDklpbKJaKUK1hdme2
+rk2zcZM0llpo9WJRoWhV0Ipi1UKh8dVDEa19ifFJVQQVH6iIUBFzEBQr4mzRi3h0
+L8P+5/t+883HjOZPdXndYy9zQx/D+zT33aGjKdfmc8FgE6dZpJELNHF1dHKhUUIT
+yUidSbgAB3jACwhKItQg4qEsC1AVqKxirFJdJJpEBA0gAyACgSTKWJJ4QycS4LGg
+8ITIbEoA5vycYcZqqR23zViSYbEsqxCKioAMXpBExRBkQ1dUlSENkaiapogO3DFu
+txKOg4XTcIIWmRabsZ/IZLx/6P9z7tQkDlFINFUmDId1jBUWGkCENYyIphu86ggT
+1I7hesrU9djWcSzVyDX7OTZtMHXqFOvc5C9FkW7VM2/ctpKWbkXZzvZkMh5wjMnG
+uKNMUy3ymxHRzBhhNTJDA7UTphXjAjxT6knTgfJQARAiBSA/R3fFTZtGTEchKTIC
+7HOOoQ1ON7rIykCaCrCqagTykqrokOoyr0AgCDqCgNWHIdFVXkS6IQoKMiQZEoqQ
+ChDgnFvtjFlcQGYxcS1DJszaGE6mbMo1Dw9uneZye13TPVOc5+Xyzpj959FpoTzX
+41k3vm+6LXZfTI/4u28ta+q4MBhuAb1Z97QtG+eO/nDjF4HM4fjeMz2+S32V4a6K
+69FFVwv3hzp/9h8cCRZMhDxX+i7vaat5X32h4O2KyOd7FT+qjnMbFufGyrwzn5/6
+1OeZHV537GD/pbvt1w/0gujKoq/fli6cV+N7/K0tO69lxthgNlg4Hiwuz9xfSjp9
+85unDqfzxNcn1iwpG/V1hNtqBkgm3TV07Ym4erxs4staPOERl187Yt8hr8+9yWVf
+lWY+fOgZP937/NH9BcNzBp4dChaXHC5dX+5/F97dmMvfQUBwSdXN4FmUq9xWucpu
+DVV+LDhf0p560N1a97T64Un1F4jUQLg=
+=0bcD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/marcanuy
+
+==================================================================
