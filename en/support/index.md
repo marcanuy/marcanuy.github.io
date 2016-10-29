@@ -23,8 +23,6 @@ thank me, here are some ways you can do it.
 
 <https://justa.beer/marcanuy>
 
-{% include justabeer_button.html %}
-
 #### Follow me on Twitter
 
 {% include twitter_button.html %}

@@ -23,8 +23,6 @@ agradecerme, aqui hay algunas formas para hacerlo.
 
 <https://justa.beer/marcanuy>
 
-{% include justabeer_button.html %}
-
 #### Seguirme en Twitter
 
 {% include twitter_button.html %}
