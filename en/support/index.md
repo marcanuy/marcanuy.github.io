@@ -11,43 +11,51 @@ thank me, here are some ways you can do it.
 * TOC
 {:toc}
 
-### Send a donation via PayPal ###
+#### Send a donation via PayPal
 
 {% include referral_paypal.html %}
 
-### Square Cash ###
+#### Square Cash
 
 <http://cash.me/$marcanuy>
 
-### Follow me on Twitter ###
+#### Buy me a beer
+
+<https://justa.beer/marcanuy>
+
+{% include justabeer_button.html %}
+
+#### Follow me on Twitter
 
 {% include twitter_button.html %}
 
-### Flattr ###
+#### Flattr
 
 {% include flattr_button.html %}
 
 ## Affiliate links ##
 
-There are some sites I recommend where I’ll earn a small commission if you
-end up buying something.
+Sites and services **I use and recommend**. 
 
-<span class="label label-success">
- I won't recommend them if I haven't prove them to be useful and good
-</span>
+<small>
+The following links contain affiliate links where I’ll earn a small
+commission if you end up buying something. I won't recommend them if I
+haven't prove them to be useful and good
+</small>
 
-### NameCheap ###
+#### NameCheap
 
-[Namecheap.com • Domain Name Registration & Web Hosting](http://www.namecheap.com/?aff=35306) 
+[Namecheap.com](http://www.namecheap.com/?aff=35306) <small>Domain Name Registration & Web Hosting</small>
 {% include referral_namecheap.html %}
 
-### Amazon ###
+#### Amazon
 
-[Amazon.com](http://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) 
+[Amazon.com](http://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) <small>Online Shopping</small>
 {% include referral_amazon.html %}
 
-### DigitalOcean ###
+#### DigitalOcean
 
-[DigitalOcean Cloud Server](https://www.digitalocean.com/?refcode=b54bbc9a3125)
+[DigitalOcean Cloud Server](https://www.digitalocean.com/?refcode=b54bbc9a3125) <small>Hosting</small>
 
-Thank you for your support.
+
+<span class="label label-danger">Thank you for your support.</span>

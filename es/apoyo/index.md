@@ -11,21 +11,25 @@ agradecerme, aqui hay algunas formas para hacerlo.
 * TOC
 {:toc}
 
-### Enviar donación ###
-
-#### PayPal ####
+### Enviar donación por PayPal
 
 {% include referral_paypal.html %}
 
-#### Square Cash ####
+#### Square Cash
 
 <http://cash.me/$marcanuy>
 
-### Seguirme en Twitter ###
+#### Buy me a beer
+
+<https://justa.beer/marcanuy>
+
+{% include justabeer_button.html %}
+
+#### Seguirme en Twitter
 
 {% include twitter_button.html %}
 
-## Enlaces afiliados ##
+## Enlaces afiliados
 
 Estos son algunos de los servicios en línea que uso y recomiendo, en los 
 cuales ganaría una comisión si se compra algo siguiendo los enlaces.
@@ -34,18 +38,19 @@ cuales ganaría una comisión si se compra algo siguiendo los enlaces.
  No los recomendaría si no los hubiese probado y encontrado útiles
 </span>
 
-### NameCheap ###
+#### NameCheap
 
 [Namecheap.com • Registro de dominios & Web Hosting](http://www.namecheap.com/?aff=35306) 
 {% include referral_namecheap.html %}
 
-### Amazon ###
+#### Amazon
 
 [Amazon.com](http://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) 
 {% include referral_amazon.html %}
 
-### DigitalOcean ###
+#### DigitalOcean
 
 [DigitalOcean Cloud Server](https://www.digitalocean.com/?refcode=b54bbc9a3125)
 
-Thank you for your support.
+
+<span class="label label-danger"> Thank you for your support.</span>
