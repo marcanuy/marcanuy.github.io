@@ -23,5 +23,5 @@ status: run
 ---
 
 Simple page to look for old web page versions and look for any web
-page even when the site that published them may be offline.
+page even when the site that published it may be offline.
 
