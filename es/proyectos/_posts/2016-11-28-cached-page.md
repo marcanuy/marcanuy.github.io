@@ -23,6 +23,7 @@ status: run
 ---
 
 Buscador de páginas web en el _cache_ de Google y en otros servicios
-que se dedican a almacenar instantáneas de sitios web. Se puede buscar
-la versión guardada de una página web aunque el sitio web que la
-publicó este caído o no exista más.
+que se dedican a almacenar instantáneas de sitios web. 
+
+Se puede buscar la versión guardada de una página web aunque el sitio
+web que la publicó este caído o no exista más.
