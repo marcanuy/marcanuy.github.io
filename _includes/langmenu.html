@@ -1,19 +1,20 @@
 <div class="language-selector">
-  <div class="btn-group btn-group-sm pull-right">
-    {% for lang in site.data.nav %}
-    <a type="button"
-       href="/{% if site.default_lang != lang[0] %}{{ lang[0] }}{% endif %}"
-       class="btn btn-link
-	      {% if page.lang == lang[0] %}
-	      disabled
-	      {% endif %}
-	      "
-       data-toggle="tooltip"
-       data-placement="top"
-       title="{{ site.data.trans[page.lang].lang.name }}"
-       >
-      {{ lang[0] | upcase }}
-    </a>
-    {% endfor %}
-  </div>
+    <div class="btn-group btn-group-sm pull-right">
+	{% for lang in site.data.nav %}
+	{% assign lang_code = lang | first %}
+	<a type="button"
+	   lang="{{lang[0]}}"
+	   href="/{% if site.default_lang != lang[0] %}{{ lang[0] }}{% endif %}"
+	   class="btn btn-link
+		  {% if page.lang == lang[0] %}
+		  disabled
+		  {% endif %}
+		  "
+	   data-toggle="tooltip"
+	   data-placement="top"
+	   title="{{ site.data.trans[lang_code].lang.name }}">
+	    {{ lang[0] | upcase }}
+	</a>
+	{% endfor %}
+    </div>
 </div>
