@@ -8,8 +8,7 @@ subjects:
   - cache
   - web-pages
 features:
-  - Loof for the latest saved version in the Google cache and in the
-  Internet Archive
+  - Loof for the latest saved version in the Google cache and in the Internet Archive
 techs:
   - Jekyll
   - Twitter Bootstrap, responsive layout

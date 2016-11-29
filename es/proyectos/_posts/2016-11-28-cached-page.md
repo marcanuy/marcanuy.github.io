@@ -8,8 +8,7 @@ subjects:
   - cache
   - paginas-web
 features:
-  - Búsqueda de la última versión de una página web en el cache de
-  Google y en el Archivo de Internet
+  - Búsqueda de la última versión de una página web en el cache de Google y en el Archivo de Internet
 techs:
   - Jekyll
   - Twitter Bootstrap, responsive layout
