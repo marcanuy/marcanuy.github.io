@@ -52,3 +52,19 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-seo-tag
+#jekyll seo pages
+twitter: 
+  username: marcanuy
+author:
+  twitter: marcanuy
+logo: /img/marcanuy-bw2-round.png
+social:
+  name: Marcelo Canina
+  links:
+    - https://twitter.com/marcanuy
+    - https://github.com/marcanuy
+    - http://stackexchange.com/users/1193189/marcanuy?tab=accounts
+    - https://www.linkedin.com/in/marcelocanina
+    - https://plus.google.com/118415138433063920612
+    - https://keybase.io/marcanuy
