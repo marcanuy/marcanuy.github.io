@@ -24,7 +24,7 @@ tags:
   - Bootstrap
   - Software-Development
   - System-Administration
-status: beta
+status: run
 ---
 
 Collection of articles and tutorials about _software development_ and _system administration_.
