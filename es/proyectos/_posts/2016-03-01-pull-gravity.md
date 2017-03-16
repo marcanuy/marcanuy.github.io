@@ -16,9 +16,8 @@ techs:
   - Twitter Bootstrap, diseño web adaptable
   - SEO, HTML5, schema.org
 urls:
-  - http://SimpleIT.rocks
+  - http://pullgravity.com/es/
 tags: 
-  - Jekyll
   - Bootstrap
   - Ejercicio
   - Fitness

@@ -12,7 +12,7 @@ techs:
   - free iconsDB icon set (http://www.iconsdb.com/)
   - Initializr, Twitter Bootstrap, responsive design
 urls:
-  - http://marcanuy.com/es
+  - https://marcanuy.com/es
   - https://github.com/marcanuy/marcanuy.github.io
 tags: Ruby Jekyll Bootstrap
 status: run

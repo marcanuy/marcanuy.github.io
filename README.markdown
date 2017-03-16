@@ -1,7 +1,7 @@
 # About
 
 This is the data for Marcelo
-Canina's [website](http://marcanuy.com "http://marcanuy.com").
+Canina's [website](https://marcanuy.com "https://marcanuy.com").
 
 I use [Jekyll](https://github.com/jekyll/jekyll) to transform the
 content of this repo into the static site hosted

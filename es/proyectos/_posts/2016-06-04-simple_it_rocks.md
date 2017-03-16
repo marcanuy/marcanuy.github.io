@@ -17,7 +17,7 @@ techs:
   - Twitter Bootstrap, diseño responsive
   - SEO, HTML5, json-ld
 urls:
-  - http://SimpleIT.rocks
+  - https://SimpleIT.rocks
 tags: 
   - Jekyll
   - Bootstrap
