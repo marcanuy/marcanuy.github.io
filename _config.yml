@@ -68,3 +68,6 @@ social:
     - https://www.linkedin.com/in/marcelocanina
     - https://plus.google.com/118415138433063920612
     - https://keybase.io/marcanuy
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
