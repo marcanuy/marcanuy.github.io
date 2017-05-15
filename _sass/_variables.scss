@@ -48,12 +48,12 @@ $font-size-base: 1.3rem !default; // Assumes the browser default, typically `16p
 
 // Navbar
 
-$navbar-light-color:                rgba($black,.5) !default;
-$navbar-light-hover-color:          rgba($black,.7) !default;
-$navbar-light-active-color:         rgba($black,.9) !default;
-$navbar-light-disabled-color:       rgba($black,.3) !default;
+$navbar-light-color:                rgba($dark-red,.5) !default;
+$navbar-light-hover-color:          rgba($dark-red,.7) !default;
+$navbar-light-active-color:         rgba($dark-red,.9) !default;
+$navbar-light-disabled-color:       rgba($dark-red,.3) !default;
 //$navbar-light-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
-$navbar-light-toggler-border:       rgba($black,.1) !default;
+$navbar-light-toggler-border:       rgba($dark-red,.1) !default;
 
 
 @import "../bower_components/bootstrap/scss/variables";
