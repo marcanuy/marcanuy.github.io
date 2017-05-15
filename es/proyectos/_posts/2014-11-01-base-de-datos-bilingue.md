@@ -16,6 +16,10 @@ urls:
   - http://comosediceeningles.org
 tags: Laravel PHP Bootstrap
 status: run
+image: "/assets/img/screenshots/comosediceeningles.org-1366x768.png"
+languages:
+  - Español
+  - Inglés
 ---
 
 Diccionario español-inglés con ejemplos del uso de las palabras en contexto. 

@@ -1,7 +1,7 @@
 ---
 title: Juegos gratis infantiles para niños
-subtitle: Juegos fáciles en línea.
-description: Juegos gratuitos en línea para niños.
+subtitle: Juegos fáciles en línea
+description: Juegos gratuitos en línea para niños
 features:
   - Más de 800 juegos para niños
   - Categorías de juegos populares
@@ -18,6 +18,12 @@ urls:
   - http://kostenlosekinderspieleonline.com
 tags: Joomla PHP Bootstrap
 status: run
+image: "/assets/img/screenshots/juegosgratisinfantiles.net-1366x768.png"
+languages:
+  - Español
+  - Inglés
+  - Chino
+  - Portugués
 ---
 
 Conjunto de web con juegos gratis para niños. Incluyen las categorías de juegos infantiles más populares.

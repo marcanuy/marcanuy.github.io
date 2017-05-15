@@ -19,6 +19,12 @@ tags:
   - paginas-web
   - internet
 status: run
+image: "/assets/img/screenshots/cachedpage.co!ver-version-de-pagina-web-indexada-guardada-o-archivada-1366x768.png"
+languages:
+  - Español
+  - Inglés
+  - Alemán
+  - Portugués 
 ---
 
 Buscador de páginas web en el _cache_ de Google y en otros servicios

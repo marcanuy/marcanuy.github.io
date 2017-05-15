@@ -20,6 +20,12 @@ tags:
   - web-pages
   - internet
 status: run
+image: "/assets/img/screenshots/cachedpage.co-1366x768.png"
+languages:
+  - English
+  - Spanish
+  - Italian
+  - German
 ---
 
 Simple page to look for old web page versions and look for any web

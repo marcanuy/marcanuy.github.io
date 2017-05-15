@@ -17,6 +17,10 @@ urls:
   - http://comosediceeningles.org
 tags: Laravel PHP Bootstrap
 status: run
+image: "/assets/img/screenshots/sayinspanish.com-1366x768.png"
+languages:
+  - English
+  - Spanish
 ---
 
 English-Spanish dictionary with example sentences for each word.

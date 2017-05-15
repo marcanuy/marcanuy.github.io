@@ -17,6 +17,11 @@ urls:
   - http://quantisono.com
 tags: Joomla PHP Bootstrap
 status: run
+image: "/assets/img/screenshots/howmanyis.com-1366x768.png"
+languages:
+  - English
+  - Spanish
+  - Italian
 ---
 
 Set of webpages covering the most common conversions between systems of units.

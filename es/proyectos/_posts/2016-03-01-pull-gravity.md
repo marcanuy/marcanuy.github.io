@@ -22,6 +22,10 @@ tags:
   - Fitness
   - Entrenamiento
 status: dev
+image: "/assets/img/screenshots/pullgravity.com!es-1366x768.png"
+languages:
+  - Español
+  - Inglés
 ---
 
 Colección de ejercicios y rutinas para aprender y mejorar el entrenamiento físico.

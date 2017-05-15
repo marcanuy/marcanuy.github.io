@@ -29,6 +29,7 @@ en:
     features: "Features"
     techs: "Technologies"
     urls: "URLs"
+    languages: "Languages"
     status:
       dev: "In development"
       run: "Active"
@@ -63,6 +64,7 @@ es:
     features: "Características"
     techs: "Tecnologías"
     urls: "URLs"
+    languages: "Disponible en"
     status:
         dev: "En Desarrollo"
         run: "Activo"

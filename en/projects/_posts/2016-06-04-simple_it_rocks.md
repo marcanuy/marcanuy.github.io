@@ -25,6 +25,9 @@ tags:
   - Software-Development
   - System-Administration
 status: run
+image: "/assets/img/screenshots/simpleit.rocks-1366x768.png"
+languages:
+  - English
 ---
 
 Collection of articles and tutorials about _software development_ and _system administration_.

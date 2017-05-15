@@ -15,6 +15,10 @@ urls:
   - https://github.com/marcanuy/marcanuy.github.io
 tags: Ruby Jekyll Bootstrap
 status: run
+image: "/assets/img/screenshots/marcanuy.com!es-1366x768.png"
+languages:
+  - Español
+  - Inglés
 ---
 
 Sitio web multilenguaje para contener mi información personal y lista de proyectos. 

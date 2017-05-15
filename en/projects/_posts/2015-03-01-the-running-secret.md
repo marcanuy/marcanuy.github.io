@@ -18,6 +18,9 @@ urls:
   - http://TheRunningSecret.com
 tags: Jekyll Bootstrap
 status: dev
+image: "/assets/img/screenshots/therunningsecret.com-1366x768.png"
+languages:
+  - English
 ---
 
 Articles about the best running technique with sources. Quotes and studies of the best runners.

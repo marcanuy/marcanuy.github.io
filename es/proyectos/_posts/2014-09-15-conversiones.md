@@ -16,8 +16,13 @@ urls:
   - http://quantisono.com
 tags: Joomla PHP Bootstrap
 status: run
+image: "/assets/img/screenshots/cuantoes.net-1366x768.png"
+languages:
+  - Español
+  - Inglés
+  - Italiano
 ---
 
-Conjunto de webs cubriendo las conversiones entre sistemas de unidades más comunes.
+Conjunto de webs cubriendo las conversiones entre los sistemas de unidades más comunes.
 
 Diseñado principalmente para que los motores de búsquedas obtengan el resultado de las conversiones en los resultados de búsqueda (<abbr title="Search Engines Results Pages">SERP</abbr>). También contienen una herramienta de conversión interactiva.

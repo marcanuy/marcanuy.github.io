@@ -18,6 +18,13 @@ urls:
   - http://kostenlosekinderspieleonline.com
 tags: Joomla, PHP, Bootstrap
 status: run
+languages:
+  - English
+  - Spanish
+  - German
+  - Chinese
+  - Portuguese
+image: "/assets/img/screenshots/gamesforkidsfree.net-1366x768.png"
 ---
 
 Set of webs containing online free games for kids. They include the most popular game categories for kids.

@@ -24,6 +24,9 @@ tags:
   - Desarrollo-Software
   - Administración-Sistemas
 status: run
+image: "/assets/img/screenshots/simpleit.rocks-1366x768.png"
+languages:
+  - Inglés
 ---
 
 Colección de artículos y tutoriales sobre _desarrollo de software_ y _administración de sistemas_.

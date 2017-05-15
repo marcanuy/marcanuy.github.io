@@ -19,6 +19,9 @@ urls:
   - http://uk.trendedtweets.com
 tags: Laravel PHP Bootstrap
 status: stop
+languages:
+  - English
+  - Spanish
 ---
 
 Daily selection of the best tweets for each country supported by Twitter based in their trending topics.

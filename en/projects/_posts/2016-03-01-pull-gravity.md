@@ -23,6 +23,10 @@ tags:
   - Exercise
   - Fitness
 status: dev
+image: "/assets/img/screenshots/pullgravity.com-1366x768.png"
+languages:
+  - English
+  - Spanish
 ---
 
 Collection of exercises and routines to learn and improve new fitness routines.

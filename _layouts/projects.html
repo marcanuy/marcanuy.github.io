@@ -14,10 +14,22 @@ layout: default
 <div class="row project">
     <div class="col-md-7 {% cycle '', 'push-md-5' %}">
         <h2 class="project-heading">{{project.title}}. {% if project.subtitle %}<span class="text-muted">{{project.subtitle}}.</span>{% endif %}</h2>
-        <p class="lead">{% if project.description %}{{project.description}}{% endif %}</p>
+        <p class="lead">{% if project.description %}{{project.description}}.{% endif %}</p>
+
+	{% if project.languages %}
+	<span>{{site.data.locales[page.lang].projects.languages}}</span>
+	{% for language in project.languages %}
+	 {{language}}{%unless forloop.last%}, {%endunless%}
+	{% endfor %}
+	{% endif %}
     </div>
     <div class="col-md-5 {% cycle '', 'pull-md-7' %}">
-        <img class="project-image img-fluid mx-auto" alt="{{project.title}} screenshot">
+	{% if project.image %}
+	{% assign thumb = project.image | append: "-thumb.png" %}
+	{% else %}
+	{% assign thumb = "/assets/img/screenshots/noimage-trans.png" %}
+	{% endif %}
+        <img class="project-image img-fluid mx-auto img-thumbnail " alt="{{project.title}} screenshot" src="{{thumb|absolute_url}}">
     </div>
 </div>
 

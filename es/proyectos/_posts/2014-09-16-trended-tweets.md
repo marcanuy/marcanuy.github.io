@@ -18,6 +18,9 @@ urls:
   - http://uk.trendedtweets.com
 tags: Laravel PHP Bootstrap
 status: stop
+languages:
+  - Español
+  - Inglés
 ---
 
 Selección diaria de los mejores tuits de cada país basada en sus tendencias de Twitter
