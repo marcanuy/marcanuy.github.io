@@ -10,26 +10,19 @@ en:
     all_posts: All Posts
     all_pages: All Pages
     no_title_pages: Pages without title
-    footer_line: This is the content that will appear in the footer
     created: "Published on"
     author: "by"
     description: "Personal website, made with Jekyll."
-  home:
-    jumbotron_heading: Hello, world!
-    jumbotron_lead: >-
-      This is a simple hero unit, a simple jumbotron-style component
-      for calling extra attention to featured content or information.
-    jumbotron_paragraph: >-
-      It uses utility classes for typography and spacing to space
-      content out within the larger container.
-    jumbotron_button: Learn more
-    jumbotron_url: "/en/example-post"
+    read_more: "Learn more"
+    footer_line: This is the content that will appear in the footer
   projects:
-    name: Projects
+    name: "Project"
     features: "Features"
     techs: "Technologies"
     urls: "URLs"
-    languages: "Languages"
+    languages: "Available in"
+    subjects: "Subjects"
+    homepage: "Homepage"
     status:
       dev: "In development"
       run: "Active"
@@ -47,24 +40,18 @@ es:
     all_posts: Todos los mensajes
     all_pages: Todas las páginas
     no_title_pages: Páginas sin titulo
+    created: "Publicado el"
+    author: "por"
+    read_more: "Más información"
     footer_line: Este es el contenido que aparecerá en el pie de página
-  home:
-    jumbotron_heading: Hola, mundo!
-    jumbotron_lead: >-
-       Se trata de una unidad de héroe simple, un componente simple
-       jumbotron-estilo para llamar la atención adicional al contenido
-       ofrecido o a la información.
-    jumbotron_paragraph: >-
-      Utiliza clases de utilidad para la tipografía y espaciamiento al
-      espacio contenido en el contenedor más grande.
-    jumbotron_button: Más información
-    jumbotron_url: "/es/post-ejemplo"
   projects:
-    name: "Projects"
+    name: "Proyecto"
     features: "Características"
     techs: "Tecnologías"
     urls: "URLs"
     languages: "Disponible en"
+    subjects: "Temas"
+    homepage: "Página de inicio"
     status:
         dev: "En Desarrollo"
         run: "Activo"

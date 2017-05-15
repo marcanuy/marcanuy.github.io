@@ -8,7 +8,7 @@ layout: default
 	<meta itemprop="additionalName" content="marcanuy" />
 	<meta itemprop="email" content="me@marcanuy.com" />
 	<meta itemprop="familyName" content="Canina" />
-	<meta itemprop="url" content="{{ page.url }}" />
+	<meta itemprop="url" content="{{ page.url | absolute_url}}" />
 	<meta itemprop="additionalName" content="marcanuy" />
 	
 	<div class="row home-main">
@@ -23,7 +23,7 @@ layout: default
 		</div>
 	    </div>
 	    <div class="col-md-6 text-center">
-		<img class="img-fluid" src="/assets/img/marcanuy-main-rounded.png" itemprop="image" />
+		<img class="img-fluid" src="{% link /assets/img/logo-big.png %}" itemprop="image" alt="Marcanuy Logo"/>
 	    </div>
 	</div> <!-- end row -->
     </div>
@@ -33,8 +33,8 @@ layout: default
 	<div class="row">
 	    {% for profile in site.data.socialnetworks %}
 	    <div class="col text-center">
-		<a href="{{ profile[1].url }}" title="{{ profile[1].title }}">
-		    <i class="fa {{ profile[1].icon_fa_class }} fa-8x" aria-hidden="true"></i><br />
+		<a href="{{ profile[1].url | absolute_url }}" title="{{ profile[1].title }}">
+		    <i class="fa {{ profile[1].icon_fa_class }} fa-7x" aria-hidden="true"></i><br />
 		    <small>{{ profile[1].icon_alt }}</small>
 		</a>
 	    </div>

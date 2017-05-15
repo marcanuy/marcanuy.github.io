@@ -19,7 +19,7 @@ agradecerme, aqui hay algunas formas para hacerlo.
 
 ### Square Cash
 
-<http://cash.me/$marcanuy>
+<https://cash.me/$marcanuy>
 
 ### Buy me a beer
 
@@ -39,12 +39,12 @@ Los recomiendo porque los uso.
 
 ### NameCheap
 
-[Namecheap.com • Registro de dominios & Web Hosting](http://www.namecheap.com/?aff=35306) 
+[Namecheap.com • Registro de dominios & Web Hosting](https://www.namecheap.com/?aff=35306) 
 {% include referral_namecheap.html %}
 
 ### Amazon
 
-[Amazon.com](http://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) 
+[Amazon.com](https://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) 
 {% include referral_amazon.html %}
 
 ### DigitalOcean

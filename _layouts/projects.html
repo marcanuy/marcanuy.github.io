@@ -22,6 +22,7 @@ layout: default
 	 {{language}}{%unless forloop.last%}, {%endunless%}
 	{% endfor %}
 	{% endif %}
+	<a href="{{project.url | absolute_url }}">{{site.data.locales[page.lang].site.read_more}}</a>
     </div>
     <div class="col-md-5 {% cycle '', 'pull-md-7' %}">
 	{% if project.image %}

@@ -13,7 +13,7 @@ techs:
   - Twitter Bootstrap, responsive design
   - SEO, tags semánticas
 urls:
-  - http://TheRunningSecret.com
+  - https://TheRunningSecret.com
 tags: Jekyll Bootstrap
 status: dev
 image: "/assets/img/screenshots/therunningsecret.com-1366x768.png"

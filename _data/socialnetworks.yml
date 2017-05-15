@@ -1,11 +1,11 @@
 stack-exchange:
-  url: "http://stackexchange.com/users/1193189/marcanuy?tab=accounts"
+  url: "https://stackexchange.com/users/1193189/marcanuy?tab=accounts"
   link_title: "Stack-exchange profile"
   icon_fa_class: "fa-stack-exchange"
   icon_alt: "StackExchange"
 
 twitter:
-  url: "http://twitter.com/marcanuy"
+  url: "https://twitter.com/marcanuy"
   link_title: "Follow me!"
   icon_fa_class: "fa-twitter"
   icon_alt: "Twitter"

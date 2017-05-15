@@ -2,8 +2,17 @@
   en: index.html
   es: es/index.html
 -
+  en: en/art/index.html
+  es: es/arte/index.html
+-
+  en: en/articles/index.md
+  es: es/articulos/index.md
+-
   en: en/projects/index.html
   es: es/proyectos/index.html
+-
+  en: en/projects/_posts/2017-05-15-converter-ninja.md
+  es: es/proyectos/_posts/2017-05-15-converter-ninja.md
 -
   en: en/projects/_posts/2014-09-15-conversions.md
   es: es/proyectos/_posts/2014-09-15-conversiones.md

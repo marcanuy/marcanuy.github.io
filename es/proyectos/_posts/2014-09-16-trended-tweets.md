@@ -21,6 +21,7 @@ status: stop
 languages:
   - Español
   - Inglés
+image: "/assets/img/screenshots/trendedtweets.com-1366x768.png"
 ---
 
 Selección diaria de los mejores tuits de cada país basada en sus tendencias de Twitter

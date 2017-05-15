@@ -1,7 +1,7 @@
 ---
 title: Conversiones
 subtitle: Conversiones entre unidades
-description: Proyecto de conversiones entre unidades
+description: Proyecto de conversiones entre unidades para los motores de búsqueda de internet
 features:
   - Más de 300.000 conversiones
   - 30 sistemas de unidades

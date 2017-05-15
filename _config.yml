@@ -16,7 +16,7 @@ twitter:
 #   admins: 1234         # facebook:admins - a Facebook user ID for domain
 #                        #   insights linked to a personal account
 
-logo: /assets/img/marcanuy-bw2-round.png # /assets/img/your-company-logo.png - URL to a site-wide logo (e.g., /)
+logo: /assets/img/logo-big.png # /assets/img/your-company-logo.png - URL to a site-wide logo (e.g., /)
 
 social:
   name: Marcelo Canina

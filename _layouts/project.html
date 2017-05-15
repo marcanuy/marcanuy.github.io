@@ -2,8 +2,91 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
+<article itemscope itemtype="http://schema.org/Article" class="clearfix">
 
-<img src="{{image}}" class="img-fluid pull-right">
+    <meta itemprop="description" content="{{ page.description }}" />
+    <meta itemprop="url" content="{{ site.url }}{{ page.url }}" />
+    <meta itemprop="name" content="{{ page.title}}" />
+    <meta itemprop="inLanguage" content="{{ page.lang }}" />
+    <meta itemprop="author" content="Marcelo Canina" />
 
-{{content}}
+    <div class="page-header">
+	<h1 itemprop="headline">
+	    {{ page.title }}
+	    <small>{{ page.subtitle }}</small>
+	</h1>
+    </div>
+
+    {% if page.image %}
+    <figure class="figure m-4 pull-right">
+	<img src="{{page.image}}" class="figure-img img-fluid img-thumbnail" alt="{{ page.title}} {{ site.data.locales[page.lang].projects.homepage }}">
+	<figcaption class="figure-caption text-right">{{ page.title}} {{ site.data.locales[page.lang].projects.homepage }}.</figcaption>
+    </figure>
+    {% endif %}
+
+    <p class="text-muted">
+	{{ site.data.locales[page.lang].site.created }}: 
+	<span itemprop="datePublished">{{ page.date | date: "%F" }}</span>
+	{% if page.status %}
+	•
+	{% include project_status.html status=page.status %}
+	{% endif %}
+
+    </p>
+    <div itemprop="articleBody">
+
+	{{content}}
+
+	{% if page.urls %}
+	<h2>{{ site.data.locales[page.lang].projects.urls }}</h2>
+	<div class="list-group lead">
+	    {% for url in page.urls %}
+	    <a href="{{ url }}" class="list-group-item list-group-item-success">
+		<i class="fa fa-external-link fa-1x fa-fw px-2"></i>
+		<strong>
+		    {{ url | remove:'http://' | remove:'https://' }}
+		</strong>
+	    </a>
+	    {% endfor %}
+	</div>
+	{% endif %}
+	
+	<p class="lead">{{page.description}}</p>
+	
+	<hr >
+	
+	{% if page.subjects %}
+	<h2>{{ site.data.locales[page.lang].projects.subjects }}</h2>
+	<ul>
+	    {% for subject in page.subjects %}
+	    <li itemprop="about">{{ subject }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if page.features %}
+	<h2>{{ site.data.locales[page.lang].projects.features }}</h2>
+	<ul>
+	    {% for feature in page.features %}
+	    <li>{{ feature }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if page.techs %}
+	<h2>{{ site.data.locales[page.lang].projects.techs }}</h2>
+	<ul>
+	    {% for tech in page.techs %}
+	    <li>{{ tech }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if project.languages %}
+	<span>{{site.data.locales[page.lang].projects.languages}}</span>
+	{% for language in project.languages %}
+	{{language}}{%unless forloop.last%}, {%endunless%}
+	{% endfor %}
+	{% endif %}	
+    </div>
+</article>

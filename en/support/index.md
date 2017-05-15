@@ -19,7 +19,7 @@ thank me, here are some ways you can do it.
 
 ### Square Cash
 
-<http://cash.me/$marcanuy>
+<https://cash.me/$marcanuy>
 
 ### Buy me a beer
 
@@ -47,12 +47,12 @@ and worth mentioning.
 
 ### NameCheap
 
-[Namecheap.com](http://www.namecheap.com/?aff=35306) <small>Domain Name Registration & Web Hosting</small>
+[Namecheap.com](https://www.namecheap.com/?aff=35306) <small>Domain Name Registration & Web Hosting</small>
 {% include referral_namecheap.html %}
 
 ### Amazon
 
-[Amazon.com](http://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) <small>Online Shopping</small>
+[Amazon.com](https://www.amazon.com/?_encoding=UTF8&tag=mecluy-20) <small>Online Shopping</small>
 {% include referral_amazon.html %}
 
 ### DigitalOcean
