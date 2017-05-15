@@ -5,15 +5,18 @@
 
     <div class="row pt-1 mt-1">
 	<div class="col-sm text-center text-sm-left align-middle">
+	    {% unless page.layout == 'home' %}
 	    <figure class="figure">
 		<img src="{% link /assets/img/logo-small.png %}" class="figure-img img-fluid rounded" alt="marcanuy logo">
 		<figcaption class="figure-caption" style="color:white">&copy; marcanuy {{ 'now' | date: "%Y" }}</figcaption>
 	    </figure>
+	    {% endunless %}
 	</div>
 	<div class="col-sm text-center align-middle">
 	    {% include lang_nav.html %}
 	</div>
 	<div class="col-sm text-center text-sm-right align-middle">
+	    {% unless page.layout == 'home' %}
 	    <ul class="nav menu nav-pills justify-content-center justify-content-sm-right">
 		{% for profile in site.data.socialnetworks %}
 		<li class="px-1 align-middle">
@@ -23,6 +26,7 @@
 		</li>
 		{% endfor %}
 	    </ul>
+	    {% endunless %}
 	</div>
     </div>
 </footer>
