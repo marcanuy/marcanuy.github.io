@@ -1,24 +1,36 @@
-en:
-  home:
-    title: "Home"
-    url:   "/"
-  projects:
-    title: "Projects"
-    slug: "projects"
-    url:   "/en/projects"
-  support:
-    title: "Support"
-    slug: "support"
-    url:   "/en/support"
-es:
-  home:
-    title: "Inicio"
-    url:   "/es/"
-  projects:
-    title: "Proyectos"
-    slug: "proyectos"
-    url:   "/es/proyectos"
-  support:
-    title: "Apoyo"
-    slug: "apoyo"
-    url:   "/es/apoyo"
+main_nav:
+  en:
+    - url: "/"
+      title: "Home"
+      home: true
+    - url: "/en/projects/"
+      title: "Projects"
+    - url: "/en/art/"
+      title: "Art"
+    - url: "/en/articles/"
+      title: "Articles"
+    - url: "/en/support/"
+      title: "Support"
+  es:
+    - url: "/es/"
+      title: "Inicio"
+      home: true
+    - url: "/es/proyectos/"
+      title: "Proyectos"
+    - url: "/es/arte/"
+      title: "Arte"
+    - url: "/es/articulos/"
+      title: "Artículos"
+    - url: "/es/apoyo/"
+      title: "Apoyo"
+# secondary_nav:
+#   en:
+#     - url: "/en/terms-and-privacy"
+#       title: "Terms"
+#     - url: "/en/about"
+#       title: "About"
+#   es:
+#     - url: ""
+#       title: ""
+#     - url: "/es/acerca"
+#       title: "Acerca"

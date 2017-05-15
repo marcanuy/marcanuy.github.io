@@ -1,0 +1,157 @@
+---
+---
+
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background-color: $black;
+    margin: 2rem auto;
+}
+
+.container {
+    border-radius: 25px;
+    padding: 2rem;
+
+}
+
+.content {
+    background-color: $gray-lighter;
+    color: $black;
+    //font-size: $custom-font-size;
+    padding: 2rem;
+}
+
+
+.footer {
+    background-color: $black;
+    color: $white;
+    margin: 0 auto 2rem auto;
+}
+
+/* Sitewide Header
+------------------------- */
+
+.site-header {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2.6em; //optimal for min-width>=320px
+    font-weight: bolder;
+     text-shadow: 1px 1px 3px $dark-red;
+}
+
+.site-subtitle {
+    //font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    min-height: 55px;
+
+    button {
+	margin-right: auto;
+	margin-left: auto;
+    }
+}
+
+/* Home
+------------------------- */
+
+.home {
+    .home-main {
+	margin-top: 3em;
+	padding: 1em 2em;
+    }
+    
+    .home-description .fa {
+	margin-right: 5px;
+    }
+
+    .home-description a {
+	color: inherit;
+	text-decoration-style: dotted;
+    }
+}
+
+/* Projects
+------------------------- */
+
+.project-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.project-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+	margin-bottom: 1.25rem;
+	font-size: 1.25rem;
+	line-height: 1.4;
+    }
+
+    .site-title {
+	font-size: 80px;
+	letter-spacing: 0.1em;
+    }
+    
+    .project-heading {
+	font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .project-heading {
+	margin-top: 7rem;
+    }
+
+    .site-title {
+	font-size: 100px;
+	letter-spacing: 0.3em;
+    }
+
+}
+
+/*****************************************************************************************/
+/* Bigger fontawesome sizes								 */
+/* http://keenthemes.com/forums/topic/why-font-awesome-icons-resizing-dont-work-anymore/ */
+/*****************************************************************************************/
+
+.fa-6x {
+    font-size: 6em !important;
+}
+.fa-7x {
+    font-size: 7em !important;
+}
+.fa-8x {
+    font-size: 8em !important;
+}
+.fa-9x {
+    font-size: 9em !important;
+}
+.fa-10x {
+    font-size: 10em !important;
+}
+.fa-11x {
+    font-size: 11em !important;
+}
+.fa-12x {
+    font-size: 12em !important;
+}
+.fa-13x {
+    font-size: 13em !important;
+}
+.fa-14x {
+    font-size: 14em !important;}
+

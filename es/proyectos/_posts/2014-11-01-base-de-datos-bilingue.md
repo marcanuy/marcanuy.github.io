@@ -2,7 +2,6 @@
 title: Base de datos bilingüe
 subtitle: Equivalencia de frases y palabras en español e inglés
 description: Proyecto de equivalencia de frases y palabras en español e inglés
-layout: project
 features:
   - 100.000 palabras y frases con traducción.
   - Traducciones en español e inglés.

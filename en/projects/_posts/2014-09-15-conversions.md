@@ -22,3 +22,18 @@ status: run
 Set of webpages covering the most common conversions between systems of units.
 
 Designed mainly for search engines to get a conversion at <abbr title="Search Engines Results Pages">SERP</abbr>. They also contain an interactive conversor tool.
+
+
+In your example:
+
+some line here
+{: id="idhere"}
+
+or
+
+some line here
+{: #idhere}
+
+and later link as
+
+[link](#idhere)

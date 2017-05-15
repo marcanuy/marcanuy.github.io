@@ -2,7 +2,6 @@
 title: Cached Page
 subtitle: Páginas en cache
 description: Buscador de versiones de páginas antiguas.
-layout: project
 subjects:
   - google
   - cache

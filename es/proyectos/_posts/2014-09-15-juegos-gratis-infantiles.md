@@ -2,7 +2,6 @@
 title: Juegos gratis infantiles para niños
 subtitle: Juegos fáciles en línea.
 description: Juegos gratuitos en línea para niños.
-layout: project
 features:
   - Más de 800 juegos para niños
   - Categorías de juegos populares

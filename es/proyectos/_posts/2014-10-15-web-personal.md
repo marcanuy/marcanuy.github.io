@@ -2,7 +2,6 @@
 title: Web personal
 subtitle: ""
 description: "Proyecto de web personal"
-layout: project
 features:
   - Interfaz simple
   - Lista de proyectos fácilmente actualizable

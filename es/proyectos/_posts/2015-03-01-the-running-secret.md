@@ -1,8 +1,6 @@
 ---
 title: El secreto de los corredores
-description: "Proyecto de artículos y estudios sobre la mejor forma para correr"
-description: "Artículos y estudios sobre la mejor forma para correr"
-layout: project
+description: "Artículos y estudios sobre la forma de correr natural y más eficiente"
 subjects:
   - Correr
   - Deporte

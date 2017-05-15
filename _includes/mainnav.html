@@ -1,19 +1,17 @@
-<nav class="container">
-  <div class="navigation ">
-    <ul class="nav nav-pills">
-      {% for menu in site.data.nav[page.lang] %}
-      
-      {% if menu[0] == "support" %}
-      <li class="pull-right">
-	{% else %}
-      <li>
-	{% endif %}
-	
-	<a href="{{menu[1].url}}" {% if page.url == menu[url] %} class="active" {% endif %}>
-	  {{menu[1].title}}
-	</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+{% assign menuitems = site.data.nav.main_nav[page.lang] %}
+
+<nav class="navbar navbar-toggleable-sm navbar-light text-center">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+	<ul class="navbar-nav">
+	    {% for item in menuitems %}
+	    <li class="nav-item {% if page.url==item.url %}active{% endif%}">
+		<a class="nav-link" href="{{item.url}}">{{item.title}} {% if page.url==item.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+    </div>
 </nav>
+

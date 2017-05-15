@@ -2,7 +2,6 @@
 title: Pull Gravity
 subtitle: Lista de ejercicios y rutinas de entrenamiento
 description: Colección de ejercicios categorizados por músculos y rutinas.
-layout: project
 subjects:
   - Ejercicio
   - Gym

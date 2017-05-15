@@ -1,95 +1,77 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{page.lang}}"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="{{page.lang}}"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="{{page.lang}}"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="{{page.lang}}"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title | strip_html }}</title>
-    <meta name="description" content="{{ page.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/assets/main.css">
+	<link rel="stylesheet" href="{{ '/bower_components/font-awesome/css/font-awesome.min.css' | absolute_url }}" type="text/css" />
+	{% include alternate.html %}	
+	{%comment%} jekyll-seo-tag plugin with disabled title to make them localized {%endcomment%}
+	{% seo title=false %}
+	{% assign site_title = site.data.locales[page.lang].site.title %}
+	{% if page.layout == "project" %}
+	<title>{{page.title}}{% unless page.title contains site_title%} {{site.data.locales[page.lang].projects.name}} | {{site_title}}{% endunless %}</title>
+	{% else %}
+	<title>{{page.title}}{% unless page.title contains site_title%} | {{site_title}}{% endunless %}</title>
+	{% endif %}
+	
+    </head>
+    <body>
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    {% if page.data.trans %}
-    <link rel="alternate" hreflang="{% if page.lang != 'es' %}es{% else %}en{% endif %}" href="{{ page.data.trans }}" />
-    {% endif %}
-    <style>
-     body {
-       padding-top: 50px;
-       padding-bottom: 20px;
-     }
-    </style>
-    <!--link rel="stylesheet" href="/css/bootstrap-theme.min.css"-->
-    <link rel="stylesheet" href="/css/main.css">
-    
-    <!--script async src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script-->
-    <script src="https://use.fontawesome.com/7e274822ef.js"></script>
-    <link rel="author" href="https://plus.google.com/118415138433063920612"/>
+	<div class="container content">
+	    <div class="site-header">
+		<div class="site-title">{{site.data.locales[page.lang].site.title | downcase}}</div>
+		<div class="site-subtitle">{{site.data.locales[page.lang].site.subtitle}}</div>
+		<hr>
+		{% include mainnav.html %}
+		<hr>
+	    </div> <!-- Site header -->
 
-    <!-- Jekyll seo plugin -->
-    {% seo %}
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+	    {{content}}
+	    
+	    <hr>
+	    
+	    <div>
+		<h2>{{site.data.locales[page.lang].site.all_posts}}</h2>
+		<ul>
+		    {% for item in site.posts %}
+		    <li>
+			<a href="{{item.url}}" hreflang="{{item.lang}}">{{ item.title }} <strong>[{{item.lang}}]</strong></a>
+		    </li>
+		    {% endfor %}
+		</ul>
+	    </div>
 
-    <div class="container">
-      <!-- Header -->
-      <div class="header">
-	<div class="header-inner clearfix">
+	    <div>
+		<h2>{{site.data.locales[page.lang].site.all_pages}}</h2>
+		<ul>
+		    {% assign pages = site.pages | where_exp: "item", "item.title != nil" %}
+		    {% for item in pages %}
+		    <li>
+			<a href="{{item.url}}" hreflang="{{item.lang}}">{{ item.title }} <strong>[{{item.lang}}]</strong></a>
+		    </li>
+		    {% endfor %}
+		</ul>
+	    </div>
 
-	  {% if page.lang == 'en' %}
-	  <a class="brand" href="/">
-	  {% else %}
-	  <a class="brand" href="/{{ page.lang }}">
-          {% endif %}
-	  <div class="site-title" title="Marcanuy">{{ site.data.logo[page.lang].title }}</div>
-	  </a>
+	    <div>
+		<h2>{{site.data.locales[page.lang].site.no_title_pages}}</h2>
+		<ul>
+		    {% assign pages = site.pages | where_exp:"item", "item.title == nil" %}
+		    {% for item in pages %}
+		    <li>
+			<a href="{{item.url}}" hreflang="{{item.lang}}">{{ item.path }} <strong>[{{item.lang}}]</strong></a>
+		    </li>
+		    {% endfor %}
+		</ul>
+	    </div>
 
-	  <div class="site-description">
-	    {{ site.data.logo[page.lang].subtitle }}
-	    <small class="text-muted">{{ site.data.logo[page.lang].subtitle_second}}</small>
-	  </div>
+	</div><!-- /.container -->
 
-	  {% include langmenu.html %}
-	  
-	</div>
-      </div>
+	{% include footer.html %}
 
-      {% include mainnav.html %}
-
-      <div class="container">
-	{{ content }}
-      </div>
-
-      <script src="/js/vendor/jquery-3.0.0.min.js"></script>
-      <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.0.0.min.js"><\/script>')</script>
-
-      <script src="/js/vendor/bootstrap.min.js"></script>
-
-      <script src="/js/main.js"></script>
-
-      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-      <script>
-       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-							       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-			      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-			      e.src='//www.google-analytics.com/analytics.js';
-			      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-       ga('create','UA-28572639-1');ga('send','pageview');
-      </script>
-    </div> <!-- end main container -->
-
-    {% comment %}
-    Traverse through menus nav language, if we are in a homepage
-    do not show the footer to avoid duplicate content with home links
-    {% endcomment %}
-
-    {% if page.url != site.data.nav[page.lang]['home']['url'] %}
-    {% include footer.html %}
-    {% endif %}
-
-  </body>
+	<script src="{{'/bower_components/jquery/dist/jquery.min.js' | absolute_url }}"></script>
+	<script src="{{'/bower_components/tether/dist/js/tether.min.js' | absolute_url }}"></script>
+	<script src="{{'/bower_components/bootstrap/dist/js/bootstrap.min.js' | absolute_url }}"></script>
+    </body>
 </html>

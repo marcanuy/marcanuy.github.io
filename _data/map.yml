@@ -1,0 +1,43 @@
+-
+  en: index.html
+  es: es/index.html
+-
+  en: en/projects/index.html
+  es: es/proyectos/index.html
+-
+  en: en/projects/_posts/2014-09-15-conversions.md
+  es: es/proyectos/_posts/2014-09-15-conversiones.md
+-
+  en: en/projects/_posts/2014-09-15-games-for-kids.md
+  es: es/proyectos/_posts/2014-09-15-juegos-gratis-infantiles.md
+-
+  en: en/projects/_posts/2014-09-16-trended-tweets.md
+  es: es/proyectos/_posts/2014-09-16-trended-tweets.md
+-
+  en: en/projects/_posts/2014-10-15-personal-website.md
+  es: es/proyectos/_posts/2014-10-15-web-personal.md
+-
+  en: en/projects/_posts/2014-11-01-bilingual-database.md
+  es: es/proyectos/_posts/2014-11-01-base-de-datos-bilingue.md
+-
+  en: en/projects/_posts/2015-03-01-the-running-secret.md
+  es: es/proyectos/_posts/2015-03-01-the-running-secret.md
+-
+  en: en/projects/_posts/2015-05-01-emacside.md
+  es: es/proyectos/_posts/2015-05-01-emacside.md
+-
+  en: en/projects/_posts/2016-03-01-pull-gravity.md
+  es: es/proyectos/_posts/2016-03-01-pull-gravity.md
+-
+  en: en/projects/_posts/2016-06-04-simple_it_rocks.md
+  es: es/proyectos/_posts/2016-06-04-simple_it_rocks.md
+-
+  en: en/2016-11-28-cached-page.md
+  es: es/proyectos/_posts/2016-11-28-cached-page.md
+
+-
+  en: en/support/index.md
+  es: es/apoyo/index.md
+-
+  en: thanks.md
+  es: gracias.md

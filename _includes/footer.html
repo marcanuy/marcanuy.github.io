@@ -1,21 +1,28 @@
 <!-- Footer -->
-<footer>
-  <div class="footer">
-    <div class="container">
-      <hr />
-      <img style="margin-left:auto;margin-right:auto;" src="/img/marcanuy-bw2-round.png"/>
-      <div class="pull-right">
-	<ul class="nav menu nav-pills pull-right">
-	  {% for profile in site.data.socialnetworks %}
-	  <li>
-	    <a href="{{ profile[1].url }}" title="{{ profile[1].link_title }}" >
-	      <i class="fa {{ profile[1].icon_fa_class }} fa-2x" aria-hidden="true"></i>
-	    </a>
-	  </li>
-	  {% endfor %}
-	</ul>
-      </div>
-      <p style="color:white">&copy; marcanuy {{ 'now' | date: "%Y" }}</p>
+<footer class="container footer">
+
+    <hr style="background-color:white" />
+
+    <div class="row pt-1 mt-1">
+	<div class="col-sm text-center text-sm-left align-middle">
+	    <figure class="figure">
+		<img src="/assets/img/marcanuy-bw2-round.png" class="figure-img img-fluid rounded" alt="marcanuy logo">
+		<figcaption class="figure-caption" style="color:white">&copy; marcanuy {{ 'now' | date: "%Y" }}</figcaption>
+	    </figure>
+	</div>
+	<div class="col-sm text-center align-middle">
+	    {% include lang_nav.html %}
+	</div>
+	<div class="col-sm text-center text-sm-right align-middle">
+	    <ul class="nav menu nav-pills justify-content-center justify-content-sm-right">
+		{% for profile in site.data.socialnetworks %}
+		<li class="px-1 align-middle">
+		    <a href="{{ profile[1].url }}" title="{{ profile[1].link_title }}" >
+			<i class="fa {{ profile[1].icon_fa_class }} fa-2x" aria-hidden="true"></i>
+		    </a>
+		</li>
+		{% endfor %}
+	    </ul>
+	</div>
     </div>
-  </div>
 </footer>

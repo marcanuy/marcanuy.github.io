@@ -1,64 +1,23 @@
-permalink: /:categories/:title/
-url: 'https://marcanuy.com'
+title: ""              # Site title in default language
+description: ""        # A short description in default language
 
-defaults:
-  #languages
-  -
-    scope:
-      path: ""
-    values:
-      lang: "en"
-  -
-    scope:
-      path: "es"
-    values:
-      lang: "es"
-  # default layouts when not specified in each doc
-  # types available: pages, posts, drafts
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "en/projects"
-      type: "posts"
-    values:
-      layout: "project"
-  -
-    scope:
-      path: "es/proyectos"
-      type: "posts"
-    values:
-      layout: "project"
-      
-#language of /index.html
-default_lang: "en"
+url: "https://marcanuy.com" # The full URL to your site. 
+  
+author: marcanuy       # Global author information, should be the
+                       # key of file: _data/authors.yml to be used in
+                       # site.data.authors[author]
 
-markdown: kramdown
-github: [metadata]
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-gems:
-  - jekyll-coffeescript
-  - jekyll-paginate
-  - jekyll-seo-tag
-#jekyll seo pages
-twitter: 
-  username: marcanuy
-author:
-  twitter: marcanuy
-logo: /img/marcanuy-bw2-round.png
+twitter:
+  username: marcanuy   # site-wide Twitter handle
+
+# facebook:
+#   app_id: 1234         # a Facebook app ID for Facebook insights
+#   publisher: 1234      # a Facebook page URL or ID of the publishing entity
+#   admins: 1234         # facebook:admins - a Facebook user ID for domain
+#                        #   insights linked to a personal account
+
+logo: /assets/img/marcanuy-bw2-round.png # /assets/img/your-company-logo.png - URL to a site-wide logo (e.g., /)
+
 social:
   name: Marcelo Canina
   links:
@@ -68,6 +27,49 @@ social:
     - https://www.linkedin.com/in/marcelocanina
     - https://plus.google.com/118415138433063920612
     - https://keybase.io/marcanuy
+
+webmaster_verifications:
+  google: M34zaO-o1QC6P4k-5PFTPKPYWMuiF6IRIkBfZsBLscE
+  bing: 453BB779294406F41BD202E3E24FFE55
+  yandex: 0102ee4f55612159
+
+lang: en_US
+
+##########################################################################
+
+sass:
+    load_paths:
+        - _sass
+        - bower_components
+
 gems:
+  - jekyll-toc
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
+
+defaults:
+  #languages
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+      layout: default
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+  -
+    scope:
+      path: "en/project"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: "es/proyectos"
+    values:
+      layout: "project"
+
+permalink: /:categories/:title

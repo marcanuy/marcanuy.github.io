@@ -2,7 +2,6 @@
 title: Conversiones
 subtitle: Conversiones entre unidades
 description: Proyecto de conversiones entre unidades
-layout: project
 features:
   - Más de 300.000 conversiones
   - 30 sistemas de unidades
