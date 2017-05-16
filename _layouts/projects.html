@@ -14,7 +14,15 @@ layout: default
 <div class="row project">
     <div class="col-md-7 {% cycle '', 'push-md-5' %}">
         <h2 class="project-heading">{{project.title}}. {% if project.subtitle %}<span class="text-muted">{{project.subtitle}}.</span>{% endif %}</h2>
-        <p class="lead">{% if project.description %}{{project.description}}.{% endif %}</p>
+	<small>
+	    {{ site.data.locales[page.lang].site.created }}: 
+	    <span itemprop="datePublished">{{ project.date | date: "%F" }}</span>
+	    {% if project.status %}
+	    •
+	    {% include project_status.html status=project.status %}
+	    {% endif %}
+	</small>
+        <p class="le/ad">{% if project.description %}{{project.description}}.{% endif %}</p>
 
 	{% if project.languages %}
 	<span>{{site.data.locales[page.lang].projects.languages}}</span>

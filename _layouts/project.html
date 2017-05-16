@@ -42,8 +42,8 @@ layout: default
 	<div class="list-group lead">
 	    {% for url in page.urls %}
 	    <a href="{{ url }}" class="list-group-item list-group-item-success">
-		<i class="fa fa-external-link fa-1x fa-fw px-2"></i>
-		<strong>
+		<i class="fa fa-external-link fa-1x fa-fw"></i>
+		<strong class="px-2">
 		    {{ url | remove:'http://' | remove:'https://' }}
 		</strong>
 	    </a>
@@ -51,7 +51,7 @@ layout: default
 	</div>
 	{% endif %}
 	
-	<p class="lead">{{page.description}}</p>
+	<p class="lead py-2">{{page.description}}</p>
 	
 	<hr >
 	
