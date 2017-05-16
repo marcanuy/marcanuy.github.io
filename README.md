@@ -51,6 +51,15 @@ $ find . -type f ! -iname "noimage*" -print0|xargs -0 -I {} convert {} \
 -crop 410x410+0+0 {}-thumb.png
 ~~~
 
+# Minifiers
+
+~~~ bash
+$ sudo npm install html-minifier -g
+html-minifier@3.5.0 
+  ├── clean-css@4.1.2 
+  └── uglify-js@3.0.5
+~~~
+
 # License
 
 The **content** of the site (i.e., blog posts and page content) is
