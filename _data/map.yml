@@ -2,8 +2,8 @@
   en: index.html
   es: es/index.html
 -
-  en: en/art/index.html
-  es: es/arte/index.html
+  en: en/art/index.md
+  es: es/arte/index.md
 -
   en: en/articles/index.md
   es: es/articulos/index.md
