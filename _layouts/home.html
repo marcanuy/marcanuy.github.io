@@ -33,7 +33,7 @@ layout: default
 	<div class="row">
 	    {% for profile in site.data.socialnetworks %}
 	    <div class="col text-center">
-		<a href="{{ profile[1].url | absolute_url }}" title="{{ profile[1].title }}">
+		<a href="{{ profile[1].url }}" title="{{ profile[1].title }}">
 		    <i class="fa {{ profile[1].icon_fa_class }} fa-7x" aria-hidden="true"></i><br />
 		    <small>{{ profile[1].icon_alt }}</small>
 		</a>
