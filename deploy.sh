@@ -26,7 +26,11 @@ JEKYLL_ENV=production bundle exec jekyll build
 find _site/ -type f ! -iname 'index.html' -iname '*.html' -print0 | while read -d $'\0' f; do mv "$f" "${f%.html}"; done
 
 echo "Htmlproofer..."
-bundle exec htmlproofer --check-html --disable-external --enforce-https --file-ignore /bower_components/ _site
+# http_status_ignore ignore status codes (many times these problems
+# are because the SSL certificate on the server is incorrect, or, in
+# the case of LinkedIn, the user agent needs to change (they have
+# banned html-proofer)) https://github.com/gjtorikian/html-proofer/issues/336#issuecomment-284109325
+bundle exec htmlproofer --check-html --enforce-https --http-status-ignore 999 --file-ignore /bower_components/ _site
 
 echo "Copying files to server..."
 aws s3 cp _site/ $s3_bucket --recursive --exclude "*" --include "*.*"
