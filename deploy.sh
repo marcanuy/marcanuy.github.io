@@ -30,7 +30,7 @@ echo "Htmlproofer..."
 # are because the SSL certificate on the server is incorrect, or, in
 # the case of LinkedIn, the user agent needs to change (they have
 # banned html-proofer)) https://github.com/gjtorikian/html-proofer/issues/336#issuecomment-284109325
-bundle exec htmlproofer --check-html --enforce-https --http-status-ignore 999 --file-ignore /bower_components/ _site
+bundle exec htmlproofer --check-html --enforce-https --http-status-ignore 999 --file-ignore /bower_components/ --internal-domains marcanuy.com _site
 
 echo "Copying files to server..."
 aws s3 cp _site/ $s3_bucket --recursive --exclude "*" --include "*.*"
