@@ -1,4 +1,4 @@
 ---
-title: Artículos
+title: Escritura
 layout: category
 ---

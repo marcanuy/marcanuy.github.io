@@ -5,10 +5,10 @@ main_nav:
       home: true
     - url: "/en/projects/"
       title: "Projects"
-    - url: "/en/art/"
-      title: "Art"
-    - url: "/en/articles/"
-      title: "Articles"
+#    - url: "/en/art/"
+#      title: "Art"
+#    - url: "/en/writing/"
+#      title: "Writing"
     - url: "/en/support/"
       title: "Support"
   es:
@@ -17,10 +17,10 @@ main_nav:
       home: true
     - url: "/es/proyectos/"
       title: "Proyectos"
-    - url: "/es/arte/"
-      title: "Arte"
-    - url: "/es/articulos/"
-      title: "Artículos"
+#    - url: "/es/arte/"
+#      title: "Arte"
+#    - url: "/es/escritura/"
+#      title: "Escritura"
     - url: "/es/apoyo/"
       title: "Apoyo"
 # secondary_nav:
