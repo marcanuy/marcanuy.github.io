@@ -34,7 +34,7 @@ agradecerme, aqui hay algunas formas para hacerlo.
 Estos son algunos de los servicios en línea que uso y recomiendo, en los 
 cuales ganaría una comisión si se compra algo siguiendo los enlaces.
 
-Los recomiendo porque los uso.
+Solo recomiendo los que yo mismo uso..
 {: .alert .alert-success}
 
 ### NameCheap
